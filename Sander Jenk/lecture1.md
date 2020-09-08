@@ -1,6 +1,16 @@
 # Lecture 1
+
 ## My story
-I'm unfamiliar with Systems modeling so I would like to learn different modeling methods to be a more complete developer.
+### What do you expect from Systems Modeling?  
+I'm unfamiliar with Systems modeling so I would like to learn different modeling methods.
+### Which software architectures/modeling techniques have you already worked with?  
+I have worked on projects with layered architectures (MVC)
+### Who are you, why are you studying in SE master?
+I'm studying SE to be a more complete developer
+### What are your software development skills?  
+I have worked as a developer for 3 years, mostly with .NET and Angular web applications
+### What are your weaknesses regardign software development?  
+Testing skills
 
 
 ## Selected software architecture definition
@@ -8,12 +18,12 @@ Software architecture describes a systems major components, their relationships 
 
 
 ## Abstract vs concrete task in the lecture
-Abstract: confusion, joy, idea
+Abstract: confusion, joy, idea  
 Concrete: asphalt, house foundation, computer screen
 
 
 ## Stories pros and cons
-Stories explain how the system should work on a lower level
+Stories explain how the system should work on a lower level  
 Stories can be too vague for development
 
 
