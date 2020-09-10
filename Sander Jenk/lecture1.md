@@ -1,3 +1,19 @@
+# Lecture 1 homework
+### Which types of diagrams are mentioned in the talk?
+UML
+### What is the standard for modeling software mentioned in the movie?
+UML
+### Why is nobody using it?
+It is complicated and difficult to use correctly
+### What is the model-code gap and what is the problem with it?
+Models and code usually don't show the same things
+### What do you personally think about layers for modeling software?
+It's an easy way to model stuff but also easily corruptible and other flaws
+### How do you think about Systems Modeling after watching this movie?
+It's an inexact science with a lot of disagreements on best practices
+### Anything else remarkable from the movie, we should share/discuss?
+How to sea bass fish
+
 # Lecture 1
 
 ## My story
