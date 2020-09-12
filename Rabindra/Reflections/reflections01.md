@@ -1,4 +1,4 @@
-#Reflections of day 1
+#Reflections of Lecture 1
 
 ## Lecture Reflection
 Lecture was started with brief overview of what will be learned studying 
