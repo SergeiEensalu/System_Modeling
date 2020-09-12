@@ -1,8 +1,8 @@
 # Exercises for lecture 01
 ## 1.6.2.6 ATM Money Withdrawal
-# Consider the software for an automated teller machine (ATM). Take especially
-# a closer look at the parts being triggered when withdrawing money from an account
-# Give eight examples of situations in this process.
+- Consider the software for an automated teller machine (ATM). Take especially \
+ a closer look at the parts being triggered when withdrawing money from an account \
+ Give eight examples of situations in this process.
     1. Before entering the ATM station, check for your safety. 
     2. Insert the card in ATM card acceptance region.
     3. Insert the correct PIN of your ATM to withdraw money.
