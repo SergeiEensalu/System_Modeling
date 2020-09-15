@@ -101,5 +101,13 @@ What did I like/dislike:
 How would the usage affect my own past, current, and potential future projects:
 -	Can be used for low level descriptions, higher levels need more abstraction
 
+### Reflections on September 15 class + lab
+Lecture:
+
+Interesting task in breakout room. A bit of a challenge to get audio working and speak up. In the final part, we saw a demo of plantUML and Fulib.
+
+Lab:
+
+We worked with Sander and Sergei on the exercises from the book, creating object diagrams with plantUML.
 
 
