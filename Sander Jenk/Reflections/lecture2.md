@@ -9,7 +9,7 @@ Difficult to select objects that are relevant in the behaviour and also there's 
 To use mapping out smaller concrete examples of behaviour of objects
 4. Doesn't make sense   
 To use them on a giant project to describe a behaviour, that includes a lot of objects, it just gets too messy
-5. Movie Thoughts
+5. Movie Thoughts  
 Pro movie: I liked the music on the background. Also it was very fluidly scripted.  
 Con movie: I liked the exaggerated gif-s that helped to emphasize the cons. 
 
