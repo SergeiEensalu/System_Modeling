@@ -1,5 +1,5 @@
-## Homework for lecture 2
-### Object diagram movie
+# Homework for lecture 2
+## Object diagram movie
 1. Object diagram pros  
 Gives a good overview of objects and their state during some system behaviour. Useful for testing - can visualise a state of different edge cases
 
@@ -10,7 +10,7 @@ To use mapping out smaller concrete examples of behaviour of objects
 4. Doesn't make sense   
 To use them on a giant project to describe a behaviour, that includes a lot of objects, it just gets too messy
 5. Movie Thoughts
-Pro movie: I liked the music on the background. Also it was very fluidly scripted. 
+Pro movie: I liked the music on the background. Also it was very fluidly scripted.  
 Con movie: I liked the exaggerated gif-s that helped to emphasize the cons. 
 
 ## Breakout, object diagram
