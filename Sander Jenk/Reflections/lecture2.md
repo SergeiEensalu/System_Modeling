@@ -15,7 +15,7 @@ Con movie: I liked the exaggerated gif-s that helped to emphasize the cons.
 
 # Lecture
 
-## Breakout, object diagram
+## Breakout, object diagram, group E
 I added to the first argument by saying that object diagrams give a good overview and they are easily understandable.
 I also challenged 2 pros - first person pointed out that they are easy to scale but in the cons it was mentioned that it was not good for larger projects and so I asked if this could be explained. The answer was that it doesn't scale up as well as down. The pros contained a point that said that is is easy to add and delete objects but the con said that that they are difficult to refactor. So it looked like they contradicted each other. 
 
