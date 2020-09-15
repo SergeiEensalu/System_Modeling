@@ -9,7 +9,6 @@
 3. If the last pebble lands in Player 1-s own house, then Player 1 can move again
 4. If the last pebble lands in an empty pit, then all the pebbles from the opposite side count as Player 1-s points
 
-
 ## Come up with two (conceptually different, not only different names) scenarios for Mancala.
 
 ### First scenario
