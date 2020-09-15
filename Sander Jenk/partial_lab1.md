@@ -4,7 +4,11 @@
 (this point didn't contain a task)
 # 1.6.3.3 User stories for Mancala
 ## Extend the four examples from Section 1.6.2.3 to scenarios.
-There are no examples in Section 1.6.2.3
+1. Player 1 picks up the pebbles in one of his buckets
+2. Player 1 then starts redistributing pebbles counter-clock-wise in to the following buckets
+3. If the last pebble lands in Player 1-s own house, then Player 1 can move again
+4. If the last pebble lands in an empty pit, then all the pebbles from the opposite side count as Player 1-s points
+
 
 ## Come up with two (conceptually different, not only different names) scenarios for Mancala.
 
