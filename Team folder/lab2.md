@@ -11,6 +11,28 @@ After Ulno has received cards:
 After Artjom has received cards:
 ![image](images/ex_211_3.png)
 
+# Exercise 2.1.3
+
+Player 1-s opportunity to score 6 points denied by player 2  
+Start
+![image](images/mancala1state1.png)
+End
+![image](images/mancala1state2.png)
+Player 1-s opportunity to score 8 points denied by player 2  
+Start  
+![image](images/mancala2state1.png)
+End  
+![image](images/mancala2state2.png)
+3 moves before a draw  
+Start
+![image](images/mancala3state1.png)
+After 1st move
+![image](images/mancala3state2.png)
+After 2nd move
+![image](images/mancala3state3.png)
+End
+![image](images/mancala3state4.png)  
+
 # Exercise 2.1.6
 
 Initial state of the ATM, Transaction, Bank account and Person:
