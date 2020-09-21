@@ -35,7 +35,7 @@
 [source] Object-Oriented Analysis, Design and Implementation - Brahma Dathan, Sarnath Ramnath, 2nd ed. 2015 - 978-3-319-24280-4.pdf chapter 13 page 449
 
     
-    [image](/Rabindra/Reflections/images/ClassDiagram_and_object_diagram.jpg)
+    - [image](/Rabindra/Reflections/images/ClassDiagram_and_object_diagram.jpg)
 
 
 # Pros of Object diagram based on movie
