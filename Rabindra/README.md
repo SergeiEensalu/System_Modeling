@@ -7,5 +7,6 @@
 ##Lecture 2
  - [Research](/Rabindra/ResearchRecords/session02.md)
  - [Reflection](/Rabindra/Reflections/reflections02.md)
+ - [ObjectDiagramImage](/Rabindra/ResearchRecords/images/ClassDiagram_and_object_diagram.jpg)
 
 

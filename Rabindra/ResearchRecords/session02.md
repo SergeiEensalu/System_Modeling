@@ -27,7 +27,7 @@
  
    ![image](images/ENFA_object_diagram.jpg) 
 
-# Object Diagram [image](/Rabindra/ResearchRecords/images/ClassDiagram_and_object_diagram.jpg)
+# Object Diagram
     An object diagram shows a partial or complete view of the objects that exist at a given point in time
     and the relationships between the objects. An object diagram is more concrete than a class diagram and 
     thus serves as a snapshot of the system, an example that adds to the conceptual understanding of the design.
