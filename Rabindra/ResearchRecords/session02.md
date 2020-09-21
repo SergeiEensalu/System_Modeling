@@ -27,15 +27,13 @@
  
    ![image](images/ENFA_object_diagram.jpg) 
 
-# Object Diagram
+# Object Diagram [image](/Rabindra/Reflections/images/ClassDiagram_and_object_diagram.jpg)
     An object diagram shows a partial or complete view of the objects that exist at a given point in time
     and the relationships between the objects. An object diagram is more concrete than a class diagram and 
     thus serves as a snapshot of the system, an example that adds to the conceptual understanding of the design.
     The diagram also serves the designers in identifying the concrete classes.
-[source] Object-Oriented Analysis, Design and Implementation - Brahma Dathan, Sarnath Ramnath, 2nd ed. 2015 - 978-3-319-24280-4.pdf chapter 13 page 449
+    [source] Object-Oriented Analysis, Design and Implementation - Brahma Dathan, Sarnath Ramnath, 2nd ed. 2015 - 978-3-319-24280-4.pdf chapter 13 page 449
 
-    
-    - [image](/Rabindra/Reflections/images/ClassDiagram_and_object_diagram.jpg)
 
 
 # Pros of Object diagram based on movie
