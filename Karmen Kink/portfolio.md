@@ -110,4 +110,48 @@ Lab:
 
 We worked with Sander and Sergei on the exercises from the book, creating object diagrams with plantUML.
 
+### Preparation for September 22 class
+**Class Diagrams**
 
+Pro arguments:
+1.	The structure of the system can be represented quite comprehensively before starting development (via class attributes, relationships, types)
+2.	Rather easy to maintain and update by adding, removing or editing attributes/relationships/methods
+
+Contra arguments:
+1.	General readability probably worse for non-developers than for developers (all the different relationships, methods vs attributes, etc.)
+
+**Group 7 video on pros**
+
+What are main points I learned from movie:
+-	The target audience should be able to process the abstract representation
+-	Class diagrams can easily be mapped to code, especially for object-oriented languages
+-	Method for encapsulating behavior to avoid maintenance problems
+
+What did I like/dislike:
+-	Liked the variety of examples presented in the video
+- 	Liked that cardinalities were nicely explained
+-	Liked the relevant tools presented (e.g. Sourcetrail)
+
+How would the usage affect my own past, current, and potential future projects:
+-	Could combine class and object diagrams (not into one, but use as complements of each other)
+
+**Group 12 video on pros**
+What are main points I learned from movie:
+-	How to assign types (the common syntax, etc.)
+-	Types of relationships in class diagrams (dependency, generalization or inheritance, association for static connections, aggregation, composition as a special type of aggregation)
+
+What did I like/dislike:
+-	Liked the gradual introduction from classes to class diagrams
+-	Liked clear pronunciation
+-	Liked the code-writing part where decorators were shown
+
+**Group 2+6 video on cons**
+What are main points I learned from movie:
+-	In class diagrams, class names start with a capital letter and are not underlined (as opposed to object diagrams)
+-	The many types of relationships can cause trouble with readability
+-	Problems that inheritance can cause
+-	Cardinalities with multiplicity can cause infinite cyclic associations
+
+What did I like/dislike:
+-	Liked that relationships are thoroughly explained
+-	Liked the understandable and funny examples
