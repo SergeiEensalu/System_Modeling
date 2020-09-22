@@ -41,15 +41,6 @@ Group members: Ott Saar, Chioma Nkem-Eze, Martin Põhjakivi, Mike, Rabindra Daha
 | Action | Intent |
 | News article | Information |
 
-### Reflections on September 8 class + lab
-Lecture:
-
-The lecture was rather introductory and did not delve deep into a specific topic. I liked that the lecturer dedicated time for introducing himself and the teaching assistant, plus we could consider our own expectations for the course. This gave me a better starting point for the weeks ahead.
-
-Lab:
-
-The organization was a bit hectic, but this is understandable for the first sessions. We managed to gather our group and started working on our repository and divided the tasks for next time.
-
 ### Preparation for September 15 class
 **Object Diagrams**
 
@@ -101,15 +92,6 @@ What did I like/dislike:
 How would the usage affect my own past, current, and potential future projects:
 -	Can be used for low level descriptions, higher levels need more abstraction
 
-### Reflections on September 15 class + lab
-Lecture:
-
-Interesting task in breakout room. A bit of a challenge to get audio working and speak up. In the final part, we saw a demo of plantUML and Fulib.
-
-Lab:
-
-We worked with Sander and Sergei on the exercises from the book, creating object diagrams with plantUML.
-
 ### Preparation for September 22 class
 **Class Diagrams**
 
@@ -136,6 +118,7 @@ How would the usage affect my own past, current, and potential future projects:
 -	Could combine class and object diagrams (not into one, but use as complements of each other)
 
 **Group 12 video on pros**
+
 What are main points I learned from movie:
 -	How to assign types (the common syntax, etc.)
 -	Types of relationships in class diagrams (dependency, generalization or inheritance, association for static connections, aggregation, composition as a special type of aggregation)
@@ -146,6 +129,7 @@ What did I like/dislike:
 -	Liked the code-writing part where decorators were shown
 
 **Group 2+6 video on cons**
+
 What are main points I learned from movie:
 -	In class diagrams, class names start with a capital letter and are not underlined (as opposed to object diagrams)
 -	The many types of relationships can cause trouble with readability
@@ -155,3 +139,24 @@ What are main points I learned from movie:
 What did I like/dislike:
 -	Liked that relationships are thoroughly explained
 -	Liked the understandable and funny examples
+
+### September 22 class + lab
+Diagram #1:
+
+The associations have arrowheads, something I haven't seen before in object diagrams. Overlaps with the instructor's opinion.
+
+Diagram #2:
+
+The object names and attributes duplicate the same information. Overlaps with the instructor's opinion.
+Note: usually object name is first and class name second, object name is underlined and lowercase, and attributes
+are expressed in the form e.g. value = 100, with the equals symbol.
+
+Diagram #3:
+
+The connections between objects don't seem too clear, probably due to the choice of which objects to include in the first place.
+
+Diagram #4:
+
+It's interesting that there are just transactions as well as a specific transaction (withdrawal).
+
+
