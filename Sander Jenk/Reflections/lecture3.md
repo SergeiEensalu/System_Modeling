@@ -32,7 +32,17 @@ Maybe maintaining a class diagram of an existing or legacy system doesn't make s
 
 ## Lecture
 
-### Breakout, object diagram, group E
+### Weird diagrams
+1. I think it is weird that player is between the deck and the cards, Inheritance arrows - Associations
+2. Forking associations look weird - Associations
+3. Circular associations are almost never nesseccary, Jane shouldn't be object class - Associations, Names
+4. Choice of objects - there probably shouldn't be multiple transactions but rather the state of the transactions should change in different steps; circular associations are almost never nesseccary - Choice of objects, Associations
 
+### Breakout, object diagram
+I provided the first pro saying that you can generate code from class diagrams and it is possible to do it vice versa - generate diagrams based on code
 
 ### Feedback for the lecture
+The lecture was good, don't really know what else to say
+
+### Feedback for the lab
+We managed to do half the exercises during the lab. One problem we had was that none of us uses java that much so the diagram generation exercises are pretty difficult for us. We didn't have IDE-s for java so we couldn't start with these. I actually really enjoy making the diagrams and plantUML makes it quite nice. That's it I guess
