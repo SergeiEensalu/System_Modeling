@@ -42,7 +42,7 @@ Maybe maintaining a class diagram of an existing or legacy system doesn't make s
 I provided the first pro saying that you can generate code from class diagrams and it is possible to do it vice versa - generate diagrams based on code
 
 ### Feedback for the lecture
-The lecture was good, don't really know what else to say
+The lecture was good, breakouts went pretty smoothly. There was a bit confusion with the new google docs format (make a copy and then edit etc) so the person who had to log stuff was a bit behind.
 
 ### Feedback for the lab
-We managed to do half the exercises during the lab. One problem we had was that none of us uses java that much so the diagram generation exercises are pretty difficult for us. We didn't have IDE-s for java so we couldn't start with these. I actually really enjoy making the diagrams and plantUML makes it quite nice. That's it I guess
+We managed to do half the exercises during the lab. One problem we had was that none of us uses java that much so the diagram generation exercises are pretty difficult for us. We didn't have IDE-s for java so we couldn't start with these. I actually really enjoy making the diagrams and plantUML makes it quite nice. I didn't really see the point of the last exercise since it was just a coding exercise, rather than a modeling one. It was annoying to use IDE and language that I don't use. Also the part with the assert statement was not clear for me.
