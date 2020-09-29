@@ -1,9 +1,9 @@
 # Lecture 4
 ## Homework
 ### Group 14 component diagram movie
-1. Strongest argument
+1. Strongest argument  
 Useful when designing device, which has input output socket (no explanation given so I don't actually understand)
-2. Movie Thoughts
+2. Movie Thoughts  
 The example in the movie looks extremely compicated (books for everyone), especially the ports since I don't think they add any value to the diagram. Also they didn't provide any pros in their movie, which is pretty funny exept fot the last slide which didn't have an explanation.
 
 ### Group 4 component diagram movie
@@ -32,8 +32,14 @@ Makes sense to use in a smaller software project or for a part of the system, wh
 Doesn't make sense to use in a big project to display all the system at once, makes it too complicated
 
 ## Lecture
+### Domain model stuff
+Domain modeling advantage: allows to show how the system would function in real life without
+implementation details getting in the way
+Disadvantage: introduces the model-code gap (as opposed to class diagrams)
 
-### Breakout, component diagram diagram, group 
+### Breakout, component diagram diagram, group 5
+I provided the con: Don't contain enough information to use for development, also not abstract enough to give a good overview of the project. Everything went pretty smoothly and we got the document filled pretty quickly.
 
 
 ### Feedback for the lecture
+Again, nice lecture, nothing more to say about that.

@@ -1,8 +1,0 @@
-@startuml
-PebbleContainer - House
-PebbleContainer - Bucket
-PebbleContainer : pebbleCountint
-Player : isHisTurn boolean
-Player -- House
-Player --{ Bucket
-@enduml
