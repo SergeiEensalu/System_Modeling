@@ -215,3 +215,77 @@ What did I like/dislike:
 -	Liked the structured overview of all contents of component diagrams
 -   Liked the recap on drawing details
 
+### September 29 class + lab
+
+Domain modeling advantage: allows to show how the system would function in real life without
+implementation details getting in the way
+Disadvantage: introduces the model-code gap (as opposed to class diagrams)
+
+Methods in class diagrams:
+Using/including methods in class diagrams depends on whether the goal is to
+model just the structure of the system, or the functionality as well. Also,
+when including methods, we could limit ourselves to just the unique ones (e.g. 
+excluding getters and setters) - but how to filter out the uniques?
+
+#### Note-taking log from breakout rooms:
+
+Notes for Group Nr 3
+
+Moderator: Mike Camara
+
+Note-Taker: Karmen Kink
+
+Opening Notes
+
+Mike, Karmen, Merlin, Raigo, Taavi, Vera
+
+First Person Pro Notes
+
+Component diagrams simplify the high-level view of the system. They allow to hide the internal details of components and focus on the whole
+
+Second Person Con Notes
+
+Creating a component diagram includes multiple decisions, difficult to decide what to include and what to exclude
+
+Third Person Pro Notes
+
+Component diagrams can be used to model databases (can help when designing databases)
+
+Fourth Person Con Notes
+
+Component diagrams are more complicated than e.g. class diagrams, the syntax takes time to learn. Also, they can be difficult to maintain and can lead to confusion because of the complexity
+
+Moderator Summary Notes
+
+Based on the previous arguments, there seems to be a tendency to think of component diagrams negatively. That could possibly be overturned by someone’s positive experience
+
+Round 1 Person Challenge/Question Notes
+
+How are component diagrams useful exactly?
+
+Round 1 Person Comment/Defense/Answer Notes
+
+Component diagrams can help to understand how subparts interact with each other, especially useful for large systems
+
+Round 2 Person Challenge/Question Notes
+
+It is rather difficult to evaluate the decision making process, having no practical experience with component diagrams
+
+2 Best For
+
+Point 1: The level of detail can be easily adjusted according to current needs (adaptability)
+
+Point 2: Component diagrams allow to hide internal details and create a cleaner high-level view
+
+2 Best Against
+
+Point 1: Complicated to make good decisions on level of detail
+
+Point 2: The notation requires some effort to learn, otherwise the diagrams can lead to misunderstanding and confusion
+
+#### Fulib code and diagram generation
+What was the most unexpected feature you saw me implementing and why?
+
+
+What was the hardest part to follow and why?
+
