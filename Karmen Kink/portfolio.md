@@ -159,4 +159,59 @@ Diagram #4:
 
 It's interesting that there are just transactions as well as a specific transaction (withdrawal).
 
+### Preparation for September 29 class
+**Component Diagrams**
+
+Pro arguments:
+1.	Good way to visualize the relations between different parts of the system (the big picture)
+2.  High-level mapping, simplifies decision-making about system structure
+
+Contra arguments:
+1.	Targeted towards developers, not easy to grasp for others, although meant for communication
+2.  Possibly high maintenance costs
+
+**Group 14 video on pros**
+
+What are main points I learned from movie:
+-	Component diagrams allow to categorize objects into larger components
+
+What did I like/dislike:
+-	Liked the viewer-friendly introduction
+-   Liked the step-by-step guide for drawing a component diagram
+-   Disliked the rather poor audio quality (difficult to make out the words at times)
+
+How would the usage affect my own past, current, and potential future projects:
+-	In case of large projects, it can be very helpful to get an overview of the system 
+and how the parts are connected (especially if the subparts are developed by separate teams)
+
+**Group 4 video on pros**
+
+What are main points I learned from movie:
+-	Each of the components must be a modular part that encapsulates its contents
+-   Provided versus required interfaces and their symbols
+-   Various types of connections (dependency, composition, generalization, aggregation, etc.)
+
+What did I like/dislike:
+-	Liked the detailed explanations of connections
+-   Liked the example about SmartID
+
+**Group 12 video on cons**
+
+What are main points I learned from movie:
+-	Types of connections on component diagrams
+-   It can be difficult to represent dynamic systems with component diagrams
+
+What did I like/dislike:
+-	Liked the hybrid diagram-code example, but was too fast at times
+
+**Group 13 video on cons**
+
+What are main points I learned from movie:
+-	Component diagrams can sometimes be too abstract, but not concrete enough
+-   For simpler cases, class diagrams might be sufficient
+-   There are multiple ways to draw the same components, need to keep consistency in mind
+
+What did I like/dislike:
+-	Liked the structured overview of all contents of component diagrams
+-   Liked the recap on drawing details
 

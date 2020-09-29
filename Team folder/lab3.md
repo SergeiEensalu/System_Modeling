@@ -19,3 +19,15 @@ should be "has". On diagram D, link between c and b1 should be "has".
 Object diagram:
 
 Class diagram:
+
+# Mancala
+The following class diagram depicts the classes of a Mancala
+game - Player, PebbleContainer, House, and Bucket. House and
+Bucket both inherit from PebbleContainer. The aggregation
+between Player and House is one to one, meaning that one player
+can have exactly one house and one house can belong to exactly
+one player. The aggregation between Player and Bucket is one to six,
+meaning that one player can have exactly six buckets and one
+bucket can belong to exactly one player.
+
+![image](images/lab3mancala.png)
