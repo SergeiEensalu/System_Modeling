@@ -31,3 +31,6 @@ meaning that one player can have exactly six buckets and one
 bucket can belong to exactly one player.
 
 ![image](images/lab3mancala.png)
+
+# ATM Money Withdrawal
+Look at the untitled1 folder
