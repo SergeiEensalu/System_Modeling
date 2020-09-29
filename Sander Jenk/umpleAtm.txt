@@ -1,0 +1,20 @@
+class ATM {
+  
+  1 -- 1 Person;
+  1 -- * Transaction;
+}
+
+class Transaction {
+  processing = false;
+}
+
+class Account {
+  balance= 100.0;
+  1 -- * Transaction;
+  * -- 1 Person;
+}
+
+class Person {
+  cash=10.0
+}
+
