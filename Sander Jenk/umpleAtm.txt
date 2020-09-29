@@ -15,6 +15,6 @@ class Account {
 }
 
 class Person {
-  cash=10.0
+  cash=10.0;
 }
 

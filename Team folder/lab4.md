@@ -3,3 +3,7 @@
 ![image](images/lab4/lab4_atm_umple_test_1.PNG)
 * Object state
 ![image](images/lab4/lab4_atm_umple_test_2.PNG)
+
+[a relative link](../Sander%20Jenk/umpleAtm.java)  
+[a relative link](../Sander%20Jenk/umpleAtm.txt)
+
