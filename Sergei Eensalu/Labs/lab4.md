@@ -4,8 +4,8 @@
 * Object state
 ![image](/Team%20folder/images/lab4/lab4_atm_umple_test_2.PNG)
 
-[Umple generated java file](../Sander%20Jenk/umpleAtm.java)  
-[Umple class  diagramsource file](../Sander%20Jenk/umpleAtm.txt)
+[Umple generated java file](../../Sander%20Jenk/umpleAtm.java)  
+[Umple class  diagramsource file](../../Sander%20Jenk/umpleAtm.txt)
 
 
 
