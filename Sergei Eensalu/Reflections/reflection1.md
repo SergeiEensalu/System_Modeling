@@ -1,4 +1,4 @@
-# Reflections of Lecture 1 : Object Diagram
+# Reflections of week 1 : Object Diagram
 
 ## Lecture Reflection
 The first lecture began with an introduction to the instructor and a quick overview of

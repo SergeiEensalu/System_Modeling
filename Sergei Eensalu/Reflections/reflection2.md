@@ -1,4 +1,4 @@
-# Reflections of Lecture 1 : Class Diagram
+# Reflections of week 2 : Class Diagram
 
 ## Lecture Reflection
 

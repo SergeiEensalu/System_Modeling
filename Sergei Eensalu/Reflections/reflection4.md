@@ -1,4 +1,4 @@
-# Reflections of Lecture 4
+# Reflections of week 4
 
 ## Lecture Reflection
 I had a force majeure situation and I had to urgently leave for Tallinn. I watched the lecture 

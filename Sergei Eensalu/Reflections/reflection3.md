@@ -1,4 +1,4 @@
-# Reflections of Lecture 3
+# Reflections of week 3
 
 ## Lecture Reflection
 Two things I liked the most this time. The first is that we considered at the beginning of the lecture some examples of diagrams that we ourselves made. We looked at it from different angles and came to a common opinion on what was done well and what was wrong. The one thing that I really liked was that for about 30 minutes the lecturer wrote code in Java. I even have fond memories of those times when I was just learning to program in Java. In this course, we could write more code. 
