@@ -17,10 +17,9 @@ We could confuse this way of modeling with class and object modeling. We are goi
 
 ## Methods in Class Diagrams
 
-### What about them? Do we want to "quack" and "poop"?
-### Data odeling vb  functionality/business logic modeling?
-### Do we want methonds unrealated to data mdoeling?
-### Why?
+We want methods because these can show us what a certain class does (if they are named well). Though, we don't want additional junk like getters and setters.
+We only need a few methods that are manipulating the data in the class, for example we might have some private methods (do something, do it well) that won't be relevant for the diagram
+
 
 
 
@@ -76,7 +75,8 @@ Point 1: Component Diagram is useful when we have to make design of some device,
 ### 2 Best Against
 Point 1: It is impossible to show unmet requirements, like a missing component, so you just need to keep them in mind.
 
-### Point 2: The diagrams are very technical and difficult to understand unless you have a technical background. They are also difficult to model correctly, because there are a lot of different ways to represent the same relationships between components
+### Point 2: 
+The diagrams are very technical and difficult to understand unless you have a technical background. They are also difficult to model correctly, because there are a lot of different ways to represent the same relationships between components
 
 
 
