@@ -18,11 +18,11 @@ should be "has". On diagram D, link between c and b1 should be "has".
 # Table and things
 Object diagram:
 
-![image](images\lab_3_ex_2.png)
+![image](/Team%20folder/images/lab_3_ex_2.png)
 
 Class diagram:
 
-![image](images\lab_3_ex_2_additional.png)
+![image](/Team%20folder/images/lab_3_ex_2_additional.png)
 
 # Mancala
 The following class diagram depicts the classes of a Mancala
@@ -34,7 +34,7 @@ one player. The aggregation between Player and Bucket is one to six,
 meaning that one player can have exactly six buckets and one
 bucket can belong to exactly one player.
 
-![image](images/lab3mancala.png)
+![image](/Team%20folder/images/lab3mancala.png)
 
 # ATM Money Withdrawal
-Look at the untitled1 folder
+Look at the untitled1 folder in the Team Folder

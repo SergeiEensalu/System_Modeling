@@ -37,41 +37,42 @@ We need softrware acritecture to have a success project,that easy to develop in 
 ## Breakout A
 
 
-###Opening Notes
+### Opening Notes
 So in this discussion we will write pros and cons about Object Diagrams.
 
-#### First Person Pro Notes
+### First Person Pro Notes
 Good way to start out before writing the code.
-#### Second Person Con Notes
+### Second Person Con Notes
 Inefficient because it can become really messy very fast.
-#### Third Person Pro Notes
+### Third Person Pro Notes
 Object diagrams are easy to understand for both professionals and stakeholders.
-#### Fourth Person Con Notes
+### Fourth Person Con Notes
 It only focuses on a particular instance of a class.
-#### Moderator Summary Notes
+### Moderator Summary Notes
 So now let's challenge each other about our points.
-#### Round 1 Person Challenge/Question Notes
+
+### Round 1 Person Challenge/Question Notes
 Object diagrams can become complex because of their user-friendly character since it has all-inclusive descriptions.
-#### Round 1 Person Comment/Defense/Answer Notes
+### Round 1 Person Comment/Defense/Answer Notes
 Well what i meant is that object diagrams usually include everything about the project. Its simple to manage it for small projects
-#### Round 2 Person Challenge/Question Notes
+### Round 2 Person Challenge/Question Notes
 Object diagrams are static instead of being a dynamic view.
-#### Round 2 Person Comment/Defense/Answer Notes
+### Round 2 Person Comment/Defense/Answer Notes
 Sometimes in some circumstances it is useful to have a static fixed state of the system.
-#### Round 3 Person Challenge/Question Notes
+### Round 3 Person Challenge/Question Notes
 How does changing a particular aspect of a diagram affect development?
-#### Round 3 Person Comment/Defense/Answer Notes
+### Round 3 Person Comment/Defense/Answer Notes
 Well, in order to have flexible we should be ready to change our system whenever needed. Of course for object diagrams it will take a bit more time but it is always possible.
 
 
-#### Free discussion to find best points for and against
+### Free discussion to find best points for and against
 Please fill general notes during discussion here
 
-#### 2 Best For
+### 2 Best For
 Point 1 for Object diagrams are easy to understand for both professionals and stakeholders.
 
 Point 2 for Good way to start out before writing the code
-#### 2 Best Against
+### 2 Best Against
 Point 1 against Inefficient because it's can become really messy very fast
 
 Point 1 against It only focuses on a particular instance of a class.

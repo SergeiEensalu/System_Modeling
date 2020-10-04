@@ -51,3 +51,5 @@ Difference between architecture model and source code, where architecture model 
 
 #### How do you think about Systems Modeling after watching this movie?
 The diagrams are basically pointless, we are just deceiving ourselves we have with creating like an alternate reality about how we think the system should look, but it doesn’t .
+
+
