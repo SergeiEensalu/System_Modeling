@@ -4,7 +4,7 @@
 
 ### Mark what you think is strange in the following diagram 1
 
-![image](images\lecture_3_diagramm_1.png)
+![image](images/lecture_3_diagramm_1.png)
 
 - associations
 - attributes - Array in deck. This array break all logic of diagramm
@@ -12,21 +12,21 @@
 
 ### Mark what you think is strange in the following diagram 2
 
-![image](images\lecture_3_diagramm_2.png)
+![image](images/lecture_3_diagramm_2.png)
 
  - object names - value is in the object name. So object name combine with class name and value. Better to use small laters 
 
 
 ### Mark what you think is strange in the following diagram 3
 
-![image](images\lecture_3_diagramm_3.png)
+![image](images/lecture_3_diagramm_3.png)
 
 - associations - connecton between Bank and Account  is wrong
 - object names - Better to use small laters 
 
 ### Mark what you think is strange in the following diagram 4
 
-![image](images\lecture_3_diagramm_4.png)
+![image](images/lecture_3_diagramm_4.png)
 
 - attributes - ID is not nessesary for diagramms, it is needed for databases
 
