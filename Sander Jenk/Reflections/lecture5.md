@@ -31,6 +31,10 @@ Makes sense to use when explaining the system to non-technical people
 If you don't need a high level diagram and if the target audience for the diagram are developers only etc.
 
 ## Lecture
+### Survey
+1. initial developers - because I think the diagrams are most valuable as a basis for initial development
+2. software testers - I think testers have to know the system as well as anyone and diagrams probably help them a lot, developers are capable of working in a "bubble" (take a task description and just figure stuff out without understanding everything)
+3. maintaining software developers - they are probably involved with the project in a later stage and it probably comes in handy to have diagrams around to introduce the system to new developers and just for developers to look stuff up
 
 ### Breakout, component diagram diagram, group 5
 
