@@ -285,9 +285,10 @@ Point 2: The notation requires some effort to learn, otherwise the diagrams can 
 
 #### Fulib code and diagram generation
 What was the most unexpected feature you saw me implementing and why?
-
+In this presentation there actually wasn't anything very unexpected for me
 
 What was the hardest part to follow and why?
+It was okay to follow, better than the last in-class code demonstration
 
 ### Preparation for October 6 class
 **Use Case Diagrams & Personas**
@@ -330,7 +331,6 @@ What are main points I learned from movie:
 What did I like/dislike:
 -	Liked that the pros were well illustrated
 
-
 **Group 11 video on cons**
 
 What are main points I learned from movie:
@@ -352,3 +352,18 @@ What are main points I learned from movie:
 What did I like/dislike:
 -	Liked the clear argumentation
 
+### October 6 class + lab
+For whom are we building software architecture, or creating system models?
+1)  software architects - they are the people who make the architecture decisions
+that the system will be based on, thus they need to have a clear overview from
+various angles on the desired outcome
+2) initial software developers - they need to create the structure laid out by the
+architecture in the first place, and in order to do that correctly, they need models
+to refer to
+3) customers / product owners - they play a crucial part in requirements elicitation
+and are logically very interested in a functional and need-driven outcome, thus models
+should be used to communicate processes and functionalities with them
+
+After the general discussion, I would put more emphasis on software developers and a
+little less on software architects, although I still think both can benefit from systems
+modelling.
