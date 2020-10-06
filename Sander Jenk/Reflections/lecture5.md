@@ -36,6 +36,10 @@ If you don't need a high level diagram and if the target audience for the diagra
 2. software testers - I think testers have to know the system as well as anyone and diagrams probably help them a lot, developers are capable of working in a "bubble" (take a task description and just figure stuff out without understanding everything)
 3. maintaining software developers - they are probably involved with the project in a later stage and it probably comes in handy to have diagrams around to introduce the system to new developers and just for developers to look stuff up
 
+* I think we basically agreed 
 ### Breakout, component diagram diagram, group 5
+* I provided a pro: use case diagrams are understandable for both developers and non technical people. 
+* I also provided a con that it can get visually messy in bigger systems and with a lot of lines and include/extend relations which was challenged with a point that said to just implement multiple diagrams for different parts of the system, which I considered a good solution. 
+* I also argued against a point that it is difficult to update these diagrams. I think they are quite easy to update since updates don't usually come in huge chunks and it is a relatively simple diagram.
 
 ### Feedback for the lecture
