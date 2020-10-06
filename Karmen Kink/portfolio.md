@@ -215,3 +215,140 @@ What did I like/dislike:
 -	Liked the structured overview of all contents of component diagrams
 -   Liked the recap on drawing details
 
+### September 29 class + lab
+
+Domain modeling advantage: allows to show how the system would function in real life without
+implementation details getting in the way
+Disadvantage: introduces the model-code gap (as opposed to class diagrams)
+
+Methods in class diagrams:
+Using/including methods in class diagrams depends on whether the goal is to
+model just the structure of the system, or the functionality as well. Also,
+when including methods, we could limit ourselves to just the unique ones (e.g. 
+excluding getters and setters) - but how to filter out the uniques?
+
+#### Note-taking log from breakout rooms:
+
+Notes for Group Nr 3
+
+Moderator: Mike Camara
+
+Note-Taker: Karmen Kink
+
+Opening Notes
+
+Mike, Karmen, Merlin, Raigo, Taavi, Vera
+
+First Person Pro Notes
+
+Component diagrams simplify the high-level view of the system. They allow to hide the internal details of components and focus on the whole
+
+Second Person Con Notes
+
+Creating a component diagram includes multiple decisions, difficult to decide what to include and what to exclude
+
+Third Person Pro Notes
+
+Component diagrams can be used to model databases (can help when designing databases)
+
+Fourth Person Con Notes
+
+Component diagrams are more complicated than e.g. class diagrams, the syntax takes time to learn. Also, they can be difficult to maintain and can lead to confusion because of the complexity
+
+Moderator Summary Notes
+
+Based on the previous arguments, there seems to be a tendency to think of component diagrams negatively. That could possibly be overturned by someone’s positive experience
+
+Round 1 Person Challenge/Question Notes
+
+How are component diagrams useful exactly?
+
+Round 1 Person Comment/Defense/Answer Notes
+
+Component diagrams can help to understand how subparts interact with each other, especially useful for large systems
+
+Round 2 Person Challenge/Question Notes
+
+It is rather difficult to evaluate the decision making process, having no practical experience with component diagrams
+
+2 Best For
+
+Point 1: The level of detail can be easily adjusted according to current needs (adaptability)
+
+Point 2: Component diagrams allow to hide internal details and create a cleaner high-level view
+
+2 Best Against
+
+Point 1: Complicated to make good decisions on level of detail
+
+Point 2: The notation requires some effort to learn, otherwise the diagrams can lead to misunderstanding and confusion
+
+#### Fulib code and diagram generation
+What was the most unexpected feature you saw me implementing and why?
+
+
+What was the hardest part to follow and why?
+
+### Preparation for October 6 class
+**Use Case Diagrams & Personas**
+
+Pro arguments:
+1.	Well suited for exemplifying the system from the users' viewpoint
+2.  Simple to create and interpret
+3.  Use case diagrams allow to describe what stakeholders exactly do (how a process goes)
+4.  Beneficial in the planning phase when requirements must be captured
+
+Contra arguments:
+1.	One use case diagram has a very limited scope. In order to describe the system from many angles,
+we need a bunch of use case diagrams
+2.  It is possible to make even use case diagrams too complex by including too many elements and associations
+
+**Group 1 video on pros**
+
+What are main points I learned from movie:
+-   A use case is not one diagram but one element on a use case diagram
+-	Personas on use case diagrams should be highly personalized
+-   When two or more use cases share functionality, this functionality should be separated to another use case
+
+What did I like/dislike:
+-   Liked the example with artists and relevant quotes used
+-	Did not like the length of the video (10-15 minutes would be much better). Some speakers could have expressed themselves more concisely
+and thus faster
+-   Did not like the uneven audio quality (some speakers were much quieter than others)
+
+How would the usage affect my own past, current, and potential future projects:
+-	Use case diagrams could be a helpful starting point to identify optimal alternatives and to communicate system structure to stakeholders
+from end user viewpoint
+
+**Group 3 video on pros**
+
+What are main points I learned from movie:
+-	User stories are textual use case diagrams
+-   Use case diagrams can be used for designing high-level tests
+-   Use case diagrams can prevent poor UX design decisions
+
+What did I like/dislike:
+-	Liked that the pros were well illustrated
+
+
+**Group 11 video on cons**
+
+What are main points I learned from movie:
+-	There are multiple possible causes of confusion in use case diagrams (e.g. actor names, crossing lines, extend/include
+associations)
+-   When gathering information for creating use case diagrams, the interviewer must be well prepared to collect
+only necessary information
+
+What did I like/dislike:
+-	Liked the visuals (well designed)
+-   Liked the structure (point by point with examples)
+
+**Group 5 video on cons**
+
+What are main points I learned from movie:
+-	Personas should be based on thorough research. They are essentially archetypes of system users
+-   Use case diagrams ignore the quality and performance of a system
+
+What did I like/dislike:
+-	Liked the clear argumentation
+
