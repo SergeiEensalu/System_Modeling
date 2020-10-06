@@ -534,6 +534,9 @@ public class Person
   // MEMBER VARIABLES
   //------------------------
 
+  //Person Attributes
+  private double cash;
+
   //Person Associations
   private ATM aTM;
   private List<Account> accounts;
@@ -544,6 +547,7 @@ public class Person
 
   public Person(ATM aATM)
   {
+    cash = 10.0;
     if (aATM == null || aATM.getPerson() != null)
     {
       throw new RuntimeException("Unable to create Person due to aATM. See http://manual.umple.org?RE002ViolationofAssociationMultiplicity.html");
@@ -554,6 +558,7 @@ public class Person
 
   public Person()
   {
+    cash = 10.0;
     aTM = new ATM(this);
     accounts = new ArrayList<Account>();
   }
@@ -561,6 +566,19 @@ public class Person
   //------------------------
   // INTERFACE
   //------------------------
+
+  public boolean setCash(double aCash)
+  {
+    boolean wasSet = false;
+    cash = aCash;
+    wasSet = true;
+    return wasSet;
+  }
+
+  public double getCash()
+  {
+    return cash;
+  }
   /* Code from template association_GetOne */
   public ATM getATM()
   {
@@ -683,12 +701,12 @@ public class Person
       aAccount.delete();
     }
   }
-  
-  //------------------------
-  // DEVELOPER CODE - PROVIDED AS-IS
-  //------------------------
-  
-  // line 19 model.ump
-  cash=10.0
-  
+
+
+  public String toString()
+  {
+    return super.toString() + "["+
+            "cash" + ":" + getCash()+ "]" + System.getProperties().getProperty("line.separator") +
+            "  " + "aTM = "+(getATM()!=null?Integer.toHexString(System.identityHashCode(getATM())):"null");
+  }
 }
