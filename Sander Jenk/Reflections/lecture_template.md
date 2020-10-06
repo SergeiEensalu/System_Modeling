@@ -1,25 +1,24 @@
-# Lecture 4
+# Lecture {number}
 ## Homework
-### Group 14 component diagram movie
+### {group} {diagramtype} diagram movie
 1. Strongest argument  
 2. Movie Thoughts  
-### Group 4 component diagram movie
+### {group} {diagramtype} diagram movie
 1. Strongest argument
 2. Movie Thoughts
-### Group 12 component diagram movie
+### {group} {diagramtype} diagram movie
 1. Strongest argument
 2. Movie Thoughts
-### Group 13 component diagram movie
+### {group} {diagramtype} diagram movie
 1. Strongest argument
 2. Movie Thoughts
-### Personal thoughts about the component diagram
+### Personal thoughts about the {diagramtype} diagram
 1. Personal pro  
 2. Personal con  
 3. Makes sense to use  
 4. Doesn't make sense to use  
 
 ## Lecture
-
-### Breakout, component diagram diagram, group 5
-
+### Some lecture specific section
+### Breakout
 ### Feedback for the lecture
