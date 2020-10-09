@@ -44,3 +44,28 @@ If you don't need a high level diagram and if the target audience for the diagra
 
 ### Feedback for the lecture
 Again, no criticism for todays lecture, it was interesting. Also our breakout went very smoothly and there were a lot of good points. Survey was also interesting, especially because there were a lot of different opinions, which was surprising. As always, the coding example is too technical for this course and for people who haven't worked with java or python a lot.
+
+### Group 5 exercise (thanks a lot, group 5 😠)
+
+| Use case              | Answers to natural language questions                                                                             |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------|
+| Actor                 | User                                                                                                              |
+| Preconditions         | Search page is opened                                                                                             |
+| Postcondition         | First section of the search contains answer to the question                                                       |
+| Main success scenario | User googles "what is the capacity of emirates stadium" First section of the loaded page contains answer "60,260" |
+| Alternate scenario    | User googles "How annoying is Group 5"  First section of the loaded page contains answer "Very annoying"                   |
+
+
+| Use case              | Search for places                                                                                                                                  |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+| Actor                 | User                                                                                                                                               |
+| Preconditions         | Search page is opened                                                                                                                              |
+| Postcondition         | First section of the page includes most relevant places to the search with google maps links                                                       |
+| Main success scenario | User googles "telliskivi restaurants" First section of the loaded page contains restaurants: Lendav Taldrik, F-hoone and their links to google maps |
+
+| Use case              | Search for website                                                  |
+|-----------------------|---------------------------------------------------------------------|
+| Actor                 | User                                                                |
+| Preconditions         | Search page is opened                                               |
+| Postcondition         | First answer is the website, that matches the search most precisely |
+| Main success scenario | User googles "github" First answer is for the site "github.com"     |
