@@ -43,3 +43,4 @@ If you don't need a high level diagram and if the target audience for the diagra
 * I also argued against a point that it is difficult to update these diagrams. I think they are quite easy to update since updates don't usually come in huge chunks and it is a relatively simple diagram.
 
 ### Feedback for the lecture
+Again, no criticism for todays lecture, it was interesting. Also our breakout went very smoothly and there were a lot of good points. Survey was also interesting, especially because there were a lot of different opinions, which was surprising. As always, the coding example is too technical for this course and for people who haven't worked with java or python a lot.
