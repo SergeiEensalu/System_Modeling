@@ -23,6 +23,29 @@ The following object diagrams are created according to the first scenario from E
 ![image](images/lab4/lab4_mancala_after_1.PNG)
 ![image](images/lab4/lab4_mancala_after_2.PNG)
 
+# More Code Generation
+Generated the code based on Mancala Network game class diagram of lab 3.
+![image](images/lab3mancala.png)
+
+Generated the class diagram using Visual Paradigm desktop version.
+
+![image](images/MancalaMoreCodeGeneration.png)
+
+The generated code is in  More Code Generation folder.
+
+
+# Component Diagram Mancala Network Game
+Done by visual-paradigm desktop version 
+
+1. High level view stressing the network connectivity and app running on a phone.
+
+![image](images/Mancala-Component-diagram-ex1.png)
+
+2. Detail view of just the server part of the game.
+
+![image](images/Mancala-Component-diagram-ex2.png)
+
+
 # Component Diagrams ATM Money Withdrawal
 
 Done by  https://online.visual-paradigm.com/drive/#diagramlist:proj=0&new=ComponentDiagram

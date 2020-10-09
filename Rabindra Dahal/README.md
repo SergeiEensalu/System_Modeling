@@ -9,4 +9,12 @@
  - [Reflection](/Rabindra/Reflections/reflections02.md)
  - [ObjectDiagramImage](/Rabindra/ResearchRecords/images/ClassDiagram_and_object_diagram.jpg)
 
+##Lecture 3
+ - [Research](/Rabindra/ResearchRecords/session03.md)
+ - [Reflection](/Rabindra/Reflections/reflections03.md)
+
+##Lecture 4
+ - [Research](/Rabindra/ResearchRecords/session04.md)
+ - [Reflection](/Rabindra/Reflections/reflections04.md)
+
 
