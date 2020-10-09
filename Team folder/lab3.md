@@ -24,6 +24,9 @@ Class diagram:
 
 ![image](images\lab_3_ex_2_additional.png)
 
+# Derive Classes from Code
+Look at GenerateClassesFromCode folder
+
 # Mancala
 The following class diagram depicts the classes of a Mancala
 game - Player, PebbleContainer, House, and Bucket. House and
