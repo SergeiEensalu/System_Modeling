@@ -1,23 +1,24 @@
-# Lecture {{lecture number}} 
+# Lecture {number}
 ## Homework
-### {{diagram}} movie
+### {group} {diagramtype} diagram movie
+1. Strongest argument  
+2. Movie Thoughts  
+### {group} {diagramtype} diagram movie
 1. Strongest argument
-
 2. Movie Thoughts
-
-### Personal thoughts about the {{diagram}}
-2. Personal pro
-
-4. Personal con
-
-4. Makes sense to use
-
-5. Doesn't make sense to use
-
+### {group} {diagramtype} diagram movie
+1. Strongest argument
+2. Movie Thoughts
+### {group} {diagramtype} diagram movie
+1. Strongest argument
+2. Movie Thoughts
+### Personal thoughts about the {diagramtype} diagram
+1. Personal pro  
+2. Personal con  
+3. Makes sense to use  
+4. Doesn't make sense to use  
 
 ## Lecture
-
-### Breakout, {{diagram}} diagram, group E
-
-
+### Some lecture specific section
+### Breakout
 ### Feedback for the lecture
