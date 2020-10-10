@@ -39,3 +39,12 @@ Based on Helmut's preferences, we decided to add a messaging service to the game
 High-level diagram: 
 
 ![image](images/lab5/lab_5_ATM_highlevel.png)
+
+Low-level diagram:
+
+![image](images/lab5/lab_5_ATM_lowlevel.png)
+
+In team discussion we reached the conclusion that the low-level use-case diagram
+could be helpful for development but when choosing between this and a
+respective component diagram, the latter might be more suitable for development purposes.
+However, for initial design decisions, use case diagrams are a good starting point.
