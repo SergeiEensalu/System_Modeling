@@ -37,4 +37,5 @@ Based on Helmut's preferences, we decided to add a messaging service to the game
 # ATM Money Withdrawal Usecase
 
 High-level diagram: 
-![image](images/lab_5_ex_ATM Money_first_part.png)
+
+![image](images/lab5/lab_5_ATM_highlevel.png)
