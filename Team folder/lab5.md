@@ -33,3 +33,8 @@ Joosep has not been paying much attention in English class, so he does not under
 
 ## Changes made based on personas
 Based on Helmut's preferences, we decided to add a messaging service to the game, which allows you to speak to your opponent. Based on Joosep's motivations, we decided to make the menus as intuitive as possible so that non-English speaking players can play without any problems. We also decided to add an option to mute the opponent because of Joosep's singing tendencies. 
+
+# ATM Money Withdrawal Usecase
+
+High-level diagram: 
+![image](images/lab_5_ex_ATM Money_first_part.png)
