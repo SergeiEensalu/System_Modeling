@@ -48,3 +48,8 @@ In team discussion we reached the conclusion that the low-level use-case diagram
 could be helpful for development but when choosing between this and a
 respective component diagram, the latter might be more suitable for development purposes.
 However, for initial design decisions, use case diagrams are a good starting point.
+
+# Mancala Controller and Tests
+
+Refer to the "Mancala Controller and Tests" folder. The relevant tests are located
+in java/net/ulno/fulib/GameTest.java.
