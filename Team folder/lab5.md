@@ -33,3 +33,23 @@ Joosep has not been paying much attention in English class, so he does not under
 
 ## Changes made based on personas
 Based on Helmut's preferences, we decided to add a messaging service to the game, which allows you to speak to your opponent. Based on Joosep's motivations, we decided to make the menus as intuitive as possible so that non-English speaking players can play without any problems. We also decided to add an option to mute the opponent because of Joosep's singing tendencies. 
+
+# ATM Money Withdrawal Usecase
+
+High-level diagram: 
+
+![image](images/lab5/lab_5_ATM_highlevel.png)
+
+Low-level diagram:
+
+![image](images/lab5/lab_5_ATM_lowlevel.png)
+
+In team discussion we reached the conclusion that the low-level use-case diagram
+could be helpful for development but when choosing between this and a
+respective component diagram, the latter might be more suitable for development purposes.
+However, for initial design decisions, use case diagrams are a good starting point.
+
+# Mancala Controller and Tests
+
+Refer to the "Mancala Controller and Tests" folder. The relevant tests are located
+in java/net/ulno/fulib/GameTest.java.

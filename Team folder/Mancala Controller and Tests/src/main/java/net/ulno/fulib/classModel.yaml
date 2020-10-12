@@ -1,0 +1,133 @@
+- c: 	ClassModel
+  classes: 	player 	bucket 	house
+  defaultCollectionType: 	c1
+  defaultPropertyStyle: 	Bean
+  defaultRoleType: 	"java.util.ArrayList<%s>"
+  mainJavaDir: 	"src/main/java"
+  packageName: 	net.ulno.fulib
+  packageSrcFolder: 	"src/main/java/net/ulno/fulib"
+
+- player: 	Clazz
+  attributes: 	player_name 	player_isHisTurn
+  model: 	c
+  modified: 	false
+  name: 	Player
+  propertyStyle: 	Bean
+  roles: 	player_buckets 	player_house
+
+- bucket: 	Clazz
+  attributes: 	bucket_id 	bucket_pebbleCount
+  model: 	c
+  modified: 	false
+  name: 	Bucket
+  propertyStyle: 	Bean
+  roles: 	bucket_player
+
+- house: 	Clazz
+  attributes: 	house_pebbleCount
+  model: 	c
+  modified: 	false
+  name: 	House
+  propertyStyle: 	Bean
+  roles: 	house_player
+
+- c1: 	CollectionType
+  implClass: 	class java.util.ArrayList
+  implTemplate: 	"java.util.ArrayList<%s>"
+  itf: 	org.fulib.classmodel.CollectionInterface.List
+  qualifiedImplName: 	java.util.ArrayList
+  simpleImplName: 	ArrayList
+
+- player_name: 	Attribute
+  clazz: 	player
+  id: 	Player_name
+  modified: 	false
+  name: 	name
+  propertyStyle: 	Bean
+  type: 	String
+  typeSignature: 	String
+
+- player_isHisTurn: 	Attribute
+  clazz: 	player
+  id: 	Player_isHisTurn
+  modified: 	false
+  name: 	isHisTurn
+  propertyStyle: 	Bean
+  type: 	boolean
+  typeSignature: 	boolean
+
+- player_buckets: 	AssocRole
+  aggregation: 	false
+  cardinality: 	42
+  clazz: 	player
+  collectionType: 	c1
+  id: 	Player_buckets
+  modified: 	false
+  name: 	buckets
+  other: 	bucket_player
+  propertyStyle: 	Bean
+  roleType: 	"java.util.ArrayList<%s>"
+
+- player_house: 	AssocRole
+  aggregation: 	false
+  cardinality: 	1
+  clazz: 	player
+  collectionType: 	c1
+  id: 	Player_house
+  modified: 	false
+  name: 	house
+  other: 	house_player
+  propertyStyle: 	Bean
+  roleType: 	"java.util.ArrayList<%s>"
+
+- bucket_id: 	Attribute
+  clazz: 	bucket
+  id: 	Bucket_id
+  modified: 	false
+  name: 	id
+  propertyStyle: 	Bean
+  type: 	int
+  typeSignature: 	int
+
+- bucket_pebbleCount: 	Attribute
+  clazz: 	bucket
+  id: 	Bucket_pebbleCount
+  modified: 	false
+  name: 	pebbleCount
+  propertyStyle: 	Bean
+  type: 	int
+  typeSignature: 	int
+
+- bucket_player: 	AssocRole
+  aggregation: 	false
+  cardinality: 	1
+  clazz: 	bucket
+  collectionType: 	c1
+  id: 	Bucket_player
+  modified: 	false
+  name: 	player
+  other: 	player_buckets
+  propertyStyle: 	Bean
+  roleType: 	"java.util.ArrayList<%s>"
+
+- house_pebbleCount: 	Attribute
+  clazz: 	house
+  id: 	House_pebbleCount
+  modified: 	false
+  name: 	pebbleCount
+  propertyStyle: 	Bean
+  type: 	int
+  typeSignature: 	int
+
+- house_player: 	AssocRole
+  aggregation: 	false
+  cardinality: 	1
+  clazz: 	house
+  collectionType: 	c1
+  id: 	House_player
+  modified: 	false
+  name: 	player
+  other: 	player_house
+  propertyStyle: 	Bean
+  roleType: 	"java.util.ArrayList<%s>"
+

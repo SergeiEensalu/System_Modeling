@@ -159,6 +159,8 @@ Diagram #4:
 
 It's interesting that there are just transactions as well as a specific transaction (withdrawal).
 
+Note to self: [link](https://www.youtube.com/watch?v=OO9Hgf35S6k&feature=youtu.be) to coding part of the lecture (generating classes from code, fulib)
+
 ### Preparation for September 29 class
 **Component Diagrams**
 
@@ -351,6 +353,15 @@ What are main points I learned from movie:
 
 What did I like/dislike:
 -	Liked the clear argumentation
+
+#### Interactive exercise from group 5 video:
+
+List of possible use cases:
+1) Look for search suggestions while typing
+2) Use regular search
+3) Use "I'm feeling lucky" feature
+4) Look for information about Google
+5) Use voice search
 
 ### October 6 class + lab
 For whom are we building software architecture, or creating system models?

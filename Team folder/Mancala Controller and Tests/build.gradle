@@ -1,0 +1,49 @@
+plugins {
+	id 'java'
+	// https://plugins.gradle.org/plugin/org.fulib.fulibGradle
+	id 'org.fulib.fulibGradle' version '0.4.0'
+}
+
+group = 'net.ulno.fulib'
+version = '0.1.0'
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+	jcenter()
+	maven { url = 'https://oss.sonatype.org/content/repositories/snapshots' }
+}
+
+test {
+	useJUnitPlatform()
+}
+
+dependencies {
+    implementation 'junit:junit:4.12'
+	implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
+	implementation 'com.sparkjava:spark-core:2.9.2'
+	implementation group: 'org.json', name: 'json', version: '20090211'
+	implementation 'com.google.code.gson:gson:2.8.6'
+
+	// https://mvnrepository.com/artifact/org.fulib/fulibScenarios
+	fulibScenarios group: 'org.fulib', name: 'fulibScenarios', version: '1.4.2'
+
+	// https://mvnrepository.com/artifact/org.fulib/fulibTools
+	testImplementation group: 'org.fulib', name: 'fulibTools', version: '1.2.1'
+
+	// https://mvnrepository.com/artifact/org.fulib/fulibTables
+	testImplementation group: 'org.fulib', name: 'fulibTables', version: '1.3.0'
+
+	// https://mvnrepository.com/artifact/org.fulib/fulibMockups
+	testImplementation group: 'org.fulib', name: 'fulibMockups', version: '0.2.0'
+
+	// https://mvnrepository.com/artifact/junit/junit
+	testImplementation group: 'junit', name: 'junit', version: '4.13'
+
+	// tip from Albert
+	testImplementation group: 'org.slf4j', name: 'slf4j-nop', version: '1.7.21'
+}
+
+generateScenarioSource {
+	classDiagramSVG = true
+}
