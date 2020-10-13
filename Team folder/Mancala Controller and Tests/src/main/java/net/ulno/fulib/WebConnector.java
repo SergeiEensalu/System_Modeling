@@ -42,7 +42,8 @@ public class WebConnector {
                 }
                 json.accumulate("players", json1);
             }
-            json.put("result", "OK");
+            json.put("winner", game.getWinner());
+            json.put("isRunning", game.isRunning());
             return json.toString();
         });
 
@@ -62,5 +63,25 @@ public class WebConnector {
             }
             return json.toString();
         });
+        options("/*",
+                (request, response) -> {
+
+                    String accessControlRequestHeaders = request
+                            .headers("Access-Control-Request-Headers");
+                    if (accessControlRequestHeaders != null) {
+                        response.header("Access-Control-Allow-Headers",
+                                accessControlRequestHeaders);
+                    }
+
+                    String accessControlRequestMethod = request
+                            .headers("Access-Control-Request-Method");
+                    if (accessControlRequestMethod != null) {
+                        response.header("Access-Control-Allow-Methods",
+                                accessControlRequestMethod);
+                    }
+
+                    return "OK";
+                });
+        before((request, response) -> response.header("Access-Control-Allow-Origin", "*"));
     }
 }

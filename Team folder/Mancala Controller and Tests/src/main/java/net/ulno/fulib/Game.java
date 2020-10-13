@@ -179,4 +179,8 @@ public class Game {
     public List<Player> getPlayers() {
         return Arrays.asList(this.player1, this.player2);
     }
+
+    public Player getWinner() {
+        return winner;
+    }
 }

@@ -21,7 +21,7 @@ public class Main {
         WebConnector.run(game);
         System.out.println("Webconnector started");
 
-        Gson gson = new Gson();
+/*        Gson gson = new Gson();
         Turn turn = new Turn();
         turn.setPlayerId(1);
         turn.setBucketId(0);
@@ -31,6 +31,6 @@ public class Main {
                 .POST(HttpRequest.BodyPublishers.ofString(gson.toJson(turn)))
                 .build();
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-        System.out.println(response);
+        System.out.println(response);*/
     }
 }
