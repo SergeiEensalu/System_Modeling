@@ -1,4 +1,10 @@
 # Building a Search Engine
+![image](images/lab5/Search Engine.png)
+
+The search engine is drawn based on searching portfolio data. We can search based on keyword like "reflection","research" etc. We can also search based on tag and texts.
+This search engine would not be helpful if we wanted to build a competitor to the new Qwant or DuckDuckGo because the search engine made by Qwant and DuckDuckGo have
+spent 5-10 years for developing and is developed by expert research personnel.The system developed by us have been developed in small time span and there may be chance of vulnerabilities, so our system cannot be proposed as alternative to Qwant or DuckDuckGo.
+
 
 # Mancala Usecase Diagrams
 
@@ -48,6 +54,37 @@ In team discussion we reached the conclusion that the low-level use-case diagram
 could be helpful for development but when choosing between this and a
 respective component diagram, the latter might be more suitable for development purposes.
 However, for initial design decisions, use case diagrams are a good starting point.
+
+# ATM Money Withdrawal Personas
+#Scenario 1
+<img src="https://www.squidge.org/~peja/aliassmithandjones/benww2.jpg" width="200"/>
+
+Thomas Edision
+Age : 40
+Works as a primary school teacher
+Father of two chhildren
+
+As a father of two children, he mostly buy gift for his children and wife. Since he is always busy, he managed to buy gift by withdrawing money from atm.
+He always need to remember the time for withdrawing the money. 
+
+#Scenario 2
+<img src="https://cdn.vox-cdn.com/thumbor/LzHo4JSAD1T4N8C_1Ou4eop7vNU=/0x0:4989x3329/1200x800/filters:focal(2067x841:2865x1639)/cdn.vox-cdn.com/uploads/chorus_image/image/58889141/usa_today_10665675.0.jpg" width="200"/>
+
+Samuel Jones Smith
+Age : 30
+Works as a garrage worker
+Father of three chhildren
+
+As a father of three children, he mostly have to pay education fee for his three cildren. He has taken loan from bank  to buy laptop so that his children can study online since education system has fully shifted to online mode due to COVID-19. Since he is always busy in his works, he has chance to forget the amount to be paid at the bank. Also, he needs to fulfills the daily basic need of his children . So, he have to withdraw money from bank daily. 
+
+Discussion:
+Regarding Thomas Edision,bank system should send him some kind of reminder note so that he is able to remember his daily scheduling in ATM booth by tracking his daily
+withdrawal.
+Regarding Samuel,considering his situation bank should give him remainder note in his mobile regarding his loan paying date recurring in each month for a year. Also, Bank should motivate him by introducing an easy credit system with recurring payments to pay the money back with his current schedule.
+
+Thus,Bank should introduce a system to remind user of their daily atm usuage patterns and also introduce easy credit system with recurring payments so that person like Samuel can be motivated. So, introducing such system will help bank to improve their performance rather than manual one.
+
+
 
 # Mancala Controller and Tests
 
