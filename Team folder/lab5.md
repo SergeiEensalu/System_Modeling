@@ -59,10 +59,10 @@ However, for initial design decisions, use case diagrams are a good starting poi
 #Scenario 1
 <img src="https://www.squidge.org/~peja/aliassmithandjones/benww2.jpg" width="200"/>
 
-Thomas Edision
-Age : 40
-Works as a primary school teacher
-Father of two chhildren
+Thomas Edision <br />
+Age : 40 <br />
+Works as a primary school teacher <br />
+Father of two children <br />
 
 As a father of two children, he mostly buy gift for his children and wife. Since he is always busy, he managed to buy gift by withdrawing money from atm.
 He always need to remember the time for withdrawing the money. 
@@ -70,10 +70,10 @@ He always need to remember the time for withdrawing the money.
 #Scenario 2
 <img src="https://cdn.vox-cdn.com/thumbor/LzHo4JSAD1T4N8C_1Ou4eop7vNU=/0x0:4989x3329/1200x800/filters:focal(2067x841:2865x1639)/cdn.vox-cdn.com/uploads/chorus_image/image/58889141/usa_today_10665675.0.jpg" width="200"/>
 
-Samuel Jones Smith
-Age : 30
-Works as a garrage worker
-Father of three children
+Samuel Jones Smith <br />
+Age : 30 <br />
+Works as a garrage worker <br />
+Father of three children <br />
 
 As a father of three children, he mostly have to pay education fee for his three children. He has taken loan from bank  to buy laptop so that his children can study online since education system has fully shifted to online mode due to COVID-19. Since he is always busy in his works, he has chance to forget the amount to be paid at the bank. Also, he needs to fulfills the daily basic need of his children . So, he have to withdraw money from ATM daily. 
 
