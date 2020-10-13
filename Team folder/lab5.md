@@ -73,9 +73,9 @@ He always need to remember the time for withdrawing the money.
 Samuel Jones Smith
 Age : 30
 Works as a garrage worker
-Father of three chhildren
+Father of three children
 
-As a father of three children, he mostly have to pay education fee for his three cildren. He has taken loan from bank  to buy laptop so that his children can study online since education system has fully shifted to online mode due to COVID-19. Since he is always busy in his works, he has chance to forget the amount to be paid at the bank. Also, he needs to fulfills the daily basic need of his children . So, he have to withdraw money from bank daily. 
+As a father of three children, he mostly have to pay education fee for his three children. He has taken loan from bank  to buy laptop so that his children can study online since education system has fully shifted to online mode due to COVID-19. Since he is always busy in his works, he has chance to forget the amount to be paid at the bank. Also, he needs to fulfills the daily basic need of his children . So, he have to withdraw money from ATM daily. 
 
 Discussion:
 Regarding Thomas Edision,bank system should send him some kind of reminder note so that he is able to remember his daily scheduling in ATM booth by tracking his daily

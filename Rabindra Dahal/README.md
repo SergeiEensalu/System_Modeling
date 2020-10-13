@@ -11,7 +11,7 @@
 
 ##Lecture 3
  - [Research](/Rabindra Dahal/ResearchRecords/session03.md)
- - [Reflection](/Rabindra/Reflections/reflections03.md)
+ - [Reflection](/Rabindra Dahal/Reflections/reflections03.md)
 
 ##Lecture 4
  - [Research](/Rabindra Dahal/ResearchRecords/session04.md)
