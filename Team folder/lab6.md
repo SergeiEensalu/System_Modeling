@@ -10,10 +10,16 @@ scenario:
 
 # Mancala Wireframes
 
+Connecting to the server:
+
 In the lobby:
 
-![image](images/lab6/lab6_wireframe_lobby.png)
+![image](images/lab6/lab6_wireframe_lobby_1.png)
 
 Start of the game:
 
-![image](images/lab6/lab6_wireframe_startgame.png)
+![image](images/lab6/lab6_wireframe_startgame_2.png)
+
+Gameplay:
+
+End of the game:
