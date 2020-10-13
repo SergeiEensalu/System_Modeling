@@ -1,3 +1,6 @@
+## Lab 1 work 
+ - [Full Lab 1](/Team%20folder/lab1.md)
+
 # 1.6.2.6 ATM Money Withdrawal
 
 - Consider the software for an automated teller machine (ATM). Take especially \

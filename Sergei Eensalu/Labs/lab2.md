@@ -1,3 +1,6 @@
+## Lab 2 work 
+ - [Full Lab 2](/Team%20folder/lab2.md)
+
 # Exercise 2.1.1
 A handwritten sketch of Mau Mau initial diagram:
 ![image](/Team%20folder/images/maumau_handwritten.jpg)
