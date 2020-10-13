@@ -25,3 +25,8 @@
  - [Lecture and lab reflection](/Sergei%20Eensalu/Reflections/reflection5.md)
  - [Lab work](/Sergei%20Eensalu/Labs/lab5.md)
  - [Lecture work](/Sergei%20Eensalu/Lectures/lecture5.md)
+
+## Week 6
+ - [Lecture and lab reflection](/Sergei%20Eensalu/Reflections/reflection6.md)
+ - [Lab work](/Sergei%20Eensalu/Labs/lab6.md)
+ - [Lecture work](/Sergei%20Eensalu/Lectures/lecture6.md)

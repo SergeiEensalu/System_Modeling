@@ -1,3 +1,8 @@
+## Lab 3 work 
+ - [Full Lab 3](/Team%20folder/lab3.md)
+
+
+
 # Matching exercise
 
 * Allowed object diagrams:  A, C

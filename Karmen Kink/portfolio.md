@@ -378,3 +378,58 @@ should be used to communicate processes and functionalities with them
 After the general discussion, I would put more emphasis on software developers and a
 little less on software architects, although I still think both can benefit from systems
 modelling.
+
+### Preparation for October 13 class
+**Sequence diagrams**
+
+Pro arguments:
+1.	Well suited for representing the behavior and interactions of parts of a system
+2.  Helpful for developers, especially when different parts are developed by different groups of people
+(can specify in advance how the interactions should look like)
+
+Contra arguments:
+1.	One sequence diagram has limited scope (often used as a complement to a use case diagram which is
+also limited)
+2.  Although their goal is to provide a more low-level view of a use case, they cannot hold all
+necessary details and still remain legible
+
+**Group 13 video on pros**
+
+What are main points I learned from movie:
+-   Sequence diagrams show objects sequentially on horizontal axis and time on vertical axis
+-	Sequence diagrams are able to represent elements such as conditionals, loops, parallel execution
+
+What did I like/dislike:
+-   Liked the various message types clearly brought out and explained
+
+How would the usage affect my own past, current, and potential future projects:
+-	Sequence diagrams can be a good way to specify a use case on a lower level than a use case
+diagram does
+
+**Group 10 video on pros**
+
+What are main points I learned from movie:
+-   The most common mistakes regarding the creation and use of sequence diagrams
+
+What did I like/dislike:
+-   Liked the fun way of communicating information
+-   Liked common mistakes introduced
+
+**Group 9 video on cons**
+
+What are main points I learned from movie:
+-   Sequence diagrams are unable to represent every possible condition (would lose
+readability when trying to include everything)
+-   Sequence diagrams can cause problems with horizontal spacing
+-   Use case + short code snippet can deliver the message better than a sequence diagram
+
+What did I like/dislike:
+-   Liked the examples on how different types of notation can cause problems
+
+**Group 14 video on cons**
+
+What are main points I learned from movie:
+-   Sequence diagrams can become very complex when it includes a large number of parties (lifelines)
+
+What did I like/dislike:
+-   Liked clear explanation of notations
