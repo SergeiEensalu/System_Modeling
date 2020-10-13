@@ -23,3 +23,13 @@ Start of the game:
 Gameplay:
 
 End of the game:
+
+# Mancala GUI
+Start of the game:  
+![image](images/lab6/mancala_angular_start.png)  
+End of the game  
+![image](images/lab6/mancala_angular_end.png)  
+
+
+Gui was made with angular and it is totally an overkill for this task. If you want to run it yourself then you have to run Mancala Controller and Tests java project and angular project in mancala_angular folder.   
+```npm install``` for installation of packages and ```ng serve``` for running the angular app (might need Angular CLI but dunno)
