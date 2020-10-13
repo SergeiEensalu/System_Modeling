@@ -1,0 +1,32 @@
+<div class="card-container">
+  <h1 *ngIf="gameState && !gameState.isRunning && gameState.winner">Winner is: {{gameState.winner}}!</h1>
+</div>
+<div *ngIf="gameState" class="mancala-container">
+  <div>
+    <h2>{{player1.name}}</h2>
+  </div>
+  <div class="circle-link-lg">
+    {{player1.houseScore}}
+  </div>
+  <div>
+    <div class="card-container">
+      <div *ngFor="let bucket of (player1.buckets | reverse)">
+        <a class="circle-link" (click)="playTurn(player1.id, bucket.id)">{{bucket.pebbleCount}}</a>
+      </div>
+    </div>
+    <div class="card-container">
+      <div *ngFor="let bucket of player2.buckets">
+        <a class="circle-link" (click)="playTurn(player2.id, bucket.id)">{{bucket.pebbleCount}}</a>
+      </div>
+    </div>
+  </div>
+  <div class="circle-link-lg">
+    {{player2.houseScore}}
+  </div>
+  <div>
+    <h2>{{player2.name}}</h2>
+  </div>
+</div>
+<div class="card-container">
+  <h3 *ngIf="gameState && gameState.isRunning">{{errorMessage}}</h3>
+</div>
