@@ -69,3 +69,7 @@ Again, no criticism for todays lecture, it was interesting. Also our breakout we
 | Preconditions         | Search page is opened                                               |
 | Postcondition         | First answer is the website, that matches the search most precisely |
 | Main success scenario | User googles "github" First answer is for the site "github.com"     |
+
+
+
+### Feedback for the lab

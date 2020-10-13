@@ -38,6 +38,10 @@ Specific use cases where displaying order of events and interactions seems neces
 There are probably a lot of cases where using it doesn't make sense.
 
 ## Lecture
-### Some lecture specific section
+### Other artifacts for communtication with client
+* I like the idea of prototypes and documentation and manuals seem useful but developers creating documentation seems unrealistic.
 ### Breakout
+I provided the most basic pro that the integration on timing and order of interactions is a powerful tool. Also challenged a point which said that lifelines can be in random order by saying that as a creator of the diagram you can choose a logical order for your lifelines. Also someone mentioned that they complement use case diagrams but it is a lot of work to have a sequence diagram for every use case. I challenged that by asking if it is really necessary to have a sequence diagram about every use case even if using sequence diagram over some other diagram wouldn't provide any additional value.
 ### Feedback for the lecture
+
+### Feedback for the lab
