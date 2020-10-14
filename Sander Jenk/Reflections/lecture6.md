@@ -43,5 +43,7 @@ There are probably a lot of cases where using it doesn't make sense.
 ### Breakout
 I provided the most basic pro that the integration on timing and order of interactions is a powerful tool. Also challenged a point which said that lifelines can be in random order by saying that as a creator of the diagram you can choose a logical order for your lifelines. Also someone mentioned that they complement use case diagrams but it is a lot of work to have a sequence diagram for every use case. I challenged that by asking if it is really necessary to have a sequence diagram about every use case even if using sequence diagram over some other diagram wouldn't provide any additional value.
 ### Feedback for the lecture
+Nothing bad to say again, interesting lecture, I liked the poll part again to ask about other student's experiences. The breakout went relatively smoothly.
 
-### Feedback for the lab
+### Lab reflections
+I did the mancala GUI task and used Angular to solve it. This lab was nice and manageable, 3 really concise and understandable tasks.
