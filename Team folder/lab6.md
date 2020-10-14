@@ -26,9 +26,9 @@ End of the game:
 
 # Mancala GUI
 Start of the game:  
-![image](images/lab6/mancala_angular_start.png)  
+![image](images/lab6/mancala_angular_start.PNG)  
 End of the game  
-![image](images/lab6/mancala_angular_end.png)  
+![image](images/lab6/mancala_angular_end.PNG)  
 
 
 Gui was made with angular and it is totally an overkill for this task. If you want to run it yourself then you have to run Mancala Controller and Tests java project and angular project in mancala_angular folder.   
