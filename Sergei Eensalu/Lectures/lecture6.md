@@ -3,7 +3,7 @@
 
 ### Lecture
 
-##### Communication with Customer/Enduser is usually hard for Requirements Engineering
+##### Communication with Customer/End-user is usually hard for Requirements Engineering
 Why other methods and/or artifacts could help ? 
 Manuals, documentations, demos, interfaces and mock classes, prototypes 
 
