@@ -503,3 +503,14 @@ What did I like/dislike:
 -   Liked the visuals
 -   Liked the one-by-one explanation of notation elements
 -   Liked the tone of the speakers (not monotonous)
+
+### October 20 class + lab
+Are state charts better than plain (and documented) code?
+
+I would say the two complement each other. State charts can be used to communicate the
+information to less technical stakeholders who benefit more from visuals than from trying
+to dig into the code. 
+
+Why would ulno fire people who use recursion?
+It can be dangerous to use recursion because the state space is unbounded
+and if we have limited resources (memory), the system can crash.
