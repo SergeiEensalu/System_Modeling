@@ -433,3 +433,73 @@ What are main points I learned from movie:
 
 What did I like/dislike:
 -   Liked clear explanation of notations
+
+### Preparation for October 20 class
+**State diagrams**
+
+Pro arguments:
+1.	Well suited for representing the behavior of reactive systems (e.g. how the system reacts to certain events)
+2.  Helpful for developers for modelling the states that an object can have during its life cycle
+
+Contra arguments:
+1.	Limited in scope (not very useful for non-reactive systems)
+2.  Can become difficult to read when objects have a large number of possible states
+
+**Group 9 video on pros**
+
+What are main points I learned from movie:
+-   State chart is an extended version of state machine
+-   UML state charts are a combination of Harel statecharts and object-oriented principles
+-   State charts include entry and exit actions
+-   Superstates can include several substates
+
+What did I like/dislike:
+-   Liked the argumentation for each pro
+-   Liked the examples about where state charts are used (especially safety-critical real-time systems)
+-   Disliked the monotonous definitions part
+
+How would the usage affect my own past, current, and potential future projects:
+-	State charts can be used for checking the correctness of the system (clean and abstract
+notation for defining requirements and design)
+-   Another possible use is for finding errors and exceptions
+
+**Group 11 video on pros**
+
+What are main points I learned from movie:
+-   Self-transitions are also possible
+-   State charts can help test systems according to the required transition 
+and end states
+-   State charts can be used for automatic code generation
+
+What did I like/dislike:
+-   Liked the terms and concepts explained
+-   Liked the real-life examples of turnstiles and traffic lights
+-   Disliked the varied volume of different speakers
+
+**Group 7 video on cons**
+
+What are main points I learned from movie:
+-   Finite State Machines are not sophisticated enough for modelling complex
+modern systems
+-   There must be a transition for each input to a state for the diagram to be
+complete
+-   State explosion can happen because the number of transitions and states
+multiplies when new behavior is added. To tackle this, state charts can include
+parallel states, hierarchy and guards. However, this notation takes some time to learn
+
+What did I like/dislike:
+-   Liked the introduction to Finite State Machines
+-   Liked the examples for each of the cons
+
+**Group 10 video on cons**
+
+What are main points I learned from movie:
+-   Substates are used to simplify complex flat state machines (they show
+that some states are only possible within some specific context)
+-   State diagrams are often confused with activity diagrams
+-   It can be difficult to model concurrent systems using state diagrams
+
+What did I like/dislike:
+-   Liked the visuals
+-   Liked the one-by-one explanation of notation elements
+-   Liked the tone of the speakers (not monotonous)
