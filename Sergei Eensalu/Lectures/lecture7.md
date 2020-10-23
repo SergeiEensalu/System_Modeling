@@ -11,7 +11,7 @@ Model checking : method for finding if the model of a system represents what is 
 ###  Second Person Con Notes
 Difficult to maintain, if the system changes you have to change the diagram.This requires time.
 
-###  ###  Third Person Pro Notes 
+### Third Person Pro Notes 
 Useful for all development phases, even in testing. 
 
 ###  Fourth Person Con Notes 
@@ -44,9 +44,11 @@ All the points were discussed .
 
 ###  2 Best For
 Point 1: Can be used for testing.
+
 Point 2: Model checking
 
 ###  2 Best Against
 Point 1: Not following notation correctly can lead to deadlocks
+
 Point 2: Hard to maintain.
 
