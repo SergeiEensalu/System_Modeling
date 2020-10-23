@@ -7,8 +7,7 @@ This lecture was, as always, very interesting. The lecture format has become cus
 ## Lab Reflection
 Practice went as usual - very interesting and fun. With Sander and Karmen, we did all the practice assignments. This week we did everything quickly and we had almost nothing left of the tasks, so this week we began to prepare for the video presentation, which we will have only in two weeks. We thought over most of the video and made the text and slides, it remains to record the whole thing
 
-## Use Case and Persona Modelling video by students
-https://www.youtube.com/watch?v=Zka4_txGkE8
+## Sequence diagrams opinion
 
 Sequence diagrams
 
@@ -21,3 +20,35 @@ always at the bottom of the diagram.
 
 
 
+## Group 13 Sequence diagrams  props
+https://www.youtube.com/watch?v=Zka4_txGkE8
+- Concrete and detailed
+- Keeps grounded
+- Focused and leaves out all unnecessary info
+- Good way yo coordinate between teams
+- Easy to specify alternative scenarios
+- Ability to represent the passage of time
+- Return arrows
+- Object activation
+
+## Group 10 Sequence diagrams  props
+https://www.youtube.com/watch?v=VO909cqjnpc&feature=youtu.be
+- They can be used for testing
+- Language Neutral
+- Time focused
+- Show the order of the interaction visually
+- Model high-level interaction between active objects in a system
+
+## Group 9 Sequence diagrams  cons
+https://www.youtube.com/watch?v=RvPfJCs1wrM&feature=youtu.be
+- Cannot represent every condition
+- Horizontal spacing problem
+- Syntax and structure problems 
+
+## Group 14 Sequence diagrams  cons
+https://www.youtube.com/watch?v=9bVl-WavnKA
+- Not space efficient 
+- Close to th code level
+- Easily outdated
+- Complexity 
+- Concurrency

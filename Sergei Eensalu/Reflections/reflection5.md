@@ -15,9 +15,7 @@ Therefore, we agreed that we will continue on Sundays. All other tasks, except f
 and large, but they all take time.
 
 
-## Use Case and Persona Modelling video by students
-
-https://www.youtube.com/watch?v=JUqStb6YqYM
+## Use Case and Persona Modelling opinion
 
 #### Use case modeling: 
 
@@ -49,23 +47,55 @@ design choices by answering questions such as what Amanda would do or whether Bo
 | Use case              | Search for images                                                                                                                                  |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Actor                 | User                                                                                                                                               |
-| Preconditions         | Search page (image tab) is opened                                                                                                                              |
+| Preconditions         | Search page (image tab) is opened                                                                                                                  |
 | Postcondition         | The page shows a large number of photos                                                     |
 | Main success scenario | User insert into searching "tartu ülikool images". The page shows a large number of photos   |
 
 
-| Use case              | Search for video                                                                                                                                  |
+| Use case              | Search for video                                                                                                                                   |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Actor                 | User                                                                                                                                               |
-| Preconditions         | Search page (video tab) is opened                                                                                                                              |
+| Preconditions         | Search page (video tab) is opened                                                                                                                  |
 | Postcondition         | The page shows a large number of video's                                                     |
 | Main success scenario | User insert into searching "stranger cats". The page shows a videos with strange's cats |
 
 
 
+## Group 1 Use Case/ Personas  props
+https://www.youtube.com/watch?v=EEx2rr_xJKI&t=6s
+- Help understand Functional Requirements of the system
+- We have ability to see alternative paths that can help optimize the system
+- Excellent bridge between software developers and users
+- Removes the ambiguity 
+- Hint at scenarios that might go wrong
+- Focus on the users of the system, not the system itself
 
+## Group 3 Use Case/ Personas  props
+https://www.youtube.com/watch?v=Iv6nCA43Nh4
+- Easy to use
+- Helps design tests
+- List features of an app
+- Prevent bad UX
 
+## Group 11 Use Case/ Personas  cons
+https://vimeo.com/464685602
+- Persona modeling is expensive
+- Not display non functional aspects
+- Logic and linear which
+- Leaves details out
 
+## Group 5 Use Case/ Personas  cons
+https://www.youtube.com/watch?v=JUqStb6YqYM
+- Misses out on the usability and non-function aspects of the system
+- Ignores the quality and performance of the system
+- Requires significant preparation to cover a complete set of use cases of a system
+- In actual system, there are if-else logic, loops, and multiple conditions. In use case diagrams, the logic is linear and summarized
+- "How many is enough?"
+- having too few use cases, it might not cover all the things system does
+- Having to many can cause the diagram to be unreadable
+- It is bad to plan architectural design or release interations based on number of use cases
+- The use cases have no specific ordering
+- Relationships between each actions are not clear
 
 
 

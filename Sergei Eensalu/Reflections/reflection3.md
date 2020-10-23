@@ -13,49 +13,41 @@ We worked with the team for 2 hours. Unfortunately, we did not manage to complet
 The tasks were interesting, but they took a lot of time. It's great that we have the opportunity to write code in practice. I love writing code more than writing plain text
 
 
-## Component Diagrams my opinion
+## Class Diagrams my opinion
 
-Component diagrams show how software objects are categorized to form larger components. 
-Component diagrams provide a simplified high order view of a large system by classifying a group of software 
-objects as a component the entire system becomes more modular as components may be interchanged and reused. 
-The simplicity allows component diagrams to be used as a communication tool between the developer and different 
-stakeholders. Component diagrams can also be used to create a roadmap for an implementation. 
+A class diagram is a type of an uml diagram that describes the static structure of a system or a part of a system a class diagram consists of classes their attributes with their respective types  and the cardinality relationships between the different classes of the diagram
 
+Looking back to object diagrams class diagrams could be considered the next logical step of modelling a system logical step of modelling a system.
 
-## Group 14 Component Diagram props
-https://www.youtube.com/watch?v=POZ5mCuGEiw
-- Is useful to understand the system as it answers questions as: 
+In comparison to object diagrams you could use class diagrams to generalize
+an object diagram that has grown too large or messy. Also it should be considered that the audience should be able to handle the more abstract way of expression.
 
-        - What the main components of the system ? 
-        
-        - How is the system decomposed ?
-        
-        - How do there components interact with each other from the static viewpoint of the service
-            that they provide and require
-- Simplify the high level of the system 
-- Supports Revers-Engineering
-- A "selfie" of the software architecture 
+class diagrams can help to discuss more concrete details of a very high level diagram
 
-## Group 4 Component Diagram props
-https://www.youtube.com/watch?v=zhNTCCDxGvg
-- Can see the software project from a hight level
-- Helps  to understands the code
-- Good for a wide range of applications 
+## Group 12 Class Diagram props
+https://drive.google.com/file/d/1_ydFMgb-d1YeOBiEfTG08ZUg2nszEAgz/view 
+- provide detail overview about the different classes, connections of structure of system
+- simple and fast to read
+- easy to create and modify
 
-## Group 12 Component Diagram cons
-https://drive.google.com/file/d/19KVPQ4Oz2KlWX9z7tCNP_d3nrUe6mj75/view
-- if logic of interfaces is changed, difficult to maintain the diagram
-- not abstract enough 
+## Group 7 Class Diagram props
+https://www.youtube.com/watch?v=H0Mlps4mZcs&feature=youtu.be
+- 1 on 1 mapping with the implementation layer
+- Very concise and expressive
+- Can be turned to code and can be generated from code
+- Easy to maintain (add new class, modify attributes, and change the hierarchy)
+- Cardinalities 
+. Good for structuring data
 
-## Group 13 Component Diagram cons
-https://www.youtube.com/watch?v=jmjxVekJ78g&feature=youtu.be
-- Are not abstract nor the real system
-- in the simple systems class diagram might be enough 
-- The same idea can be conveyed in multiple ways
-- One component can be shown in at least 4 different ways 
-- Synonymity
-- Hard to do well
-
+## Group 6 & 2  Class Diagram cons
+https://www.youtube.com/watch?v=kc4wLVmrQ6k&feature=youtu.be
+- if very-very large system - diagram is not readable 
+- Using all annotation, relationships and meenings between the classes get complicated and massive
+- inheritance is an evil, because if you change something in the base class, you have an intendent side effect in subclass
+- infinite cyclic association
+- unnecessary complexity 
+- A cycle of association relations, which includes an association class
+- Poor aesthetics
 
 
 

@@ -7,42 +7,43 @@ I liked the second lecture much more than the first. I already knew what we were
 ## Lab Reflection
 In practice, my team and I did all the necessary tasks very quickly. Everyone worked. We felt great. Felt support and help from the team
 
+## Object Diagrams my opinion
 
-## Class Diagrams my opinion
+Object diagram in the unified modeling language is a diagram that shows a complete or partial view of the structure of a modeled system at a specific time.
 
-A class diagram is a type of an uml diagram that describes the static structure of a system or a part of a system a class diagram consists of classes their attributes with their respective types  and the cardinality relationships between the different classes of the diagram
+Object diagrams are really widespread in real life system modelling, because of their advantages. List the most important ones below 
 
-Looking back to object diagrams class diagrams could be considered the next logical step of modelling a system logical step of modelling a system.
+Object diagrams are often used before building a system they clearly demonstrate the connections between systems objects. This makes life easier for developers. In the future when they will implement the system these graphs become really useful. It is a well-known fact the more time you spend on analyzing and creating a model of your future system the less issues you will have third.
 
-In comparison to object diagrams you could use class diagrams to generalize
-an object diagram that has grown too large or messy. Also it should be considered that the audience should be able to handle the more abstract way of expression.
+Object diagrams are useful to explain smaller portions of your system. Before creating a system object diagrams can be used just for discovering texts about the most specific model elements and their links. You can extract the exact part of your application and try to print it with the using of object diagram. For instance if your system requires transactions you can use object diagrams specifically for that part. Print object and its properties then create the connections between them.
 
-class diagrams can help to discuss more concrete details of a very high level diagram
+Object diagrams are also used to create examples or snapshots of your objects in a system at a point in a time. So it's not abstract you can create object diagrams by instantiating the classifiers in class deployment, component and use case diagrams. You can easily change the size or scope of an object diagram. 
 
-## Group 12 Class Diagram props
-https://drive.google.com/file/d/1_ydFMgb-d1YeOBiEfTG08ZUg2nszEAgz/view 
-- provide detail overview about the different classes, connections of structure of system
-- simple and fast to read
-- easy to create and modify
 
-## Group 7 Class Diagram props
-https://www.youtube.com/watch?v=H0Mlps4mZcs&feature=youtu.be
-- 1 on 1 mapping with the implementation layer
-- Very concise and expressive
-- Can be turned to code and can be generated from code
-- Easy to maintain (add new class, modify attributes, and change the hierarchy)
-- Cardinalities 
-. Good for structuring data
+## Group 5 Object Diagram props
+https://www.youtube.com/watch?v=fUZ5xk94ROI
+- snapshot of system at the point of time
+- can be used for making the prototype of a system
+- are used for small part of the system
+- not abstract
+- easy to change the size of score of an Object Diagram
+- Can be used in different test cases
+- Easy to understand
 
-## Group 6 & 2  Class Diagram cons
-https://www.youtube.com/watch?v=kc4wLVmrQ6k&feature=youtu.be
-- if very-very large system - diagram is not readable 
-- Using all annotation, relationships and meenings between the classes get complicated and massive
-- inheritance is an evil, because if you change something in the base class, you have an intendent side effect in subclass
-- infinite cyclic association
-- unnecessary complexity 
-- A cycle of association relations, which includes an association class
-- Poor aesthetics
+## Group 1 Object Diagram cons
+https://www.youtube.com/watch?v=NddvBlbTsR8
+- quality of the diagram depends a lot on the experience of the programmer
+- a lot of difference nouns that in future will be separate object
+- only for object oriented languages, not fot functional languages
+- in the large systems - difficult to read and understand
+
+## Group 3 Object Diagram cons
+https://www.youtube.com/watch?v=10qdRMpAba0&feature=youtu.be
+- Useless now a days
+- Large system - hard to read
+- Refactoring an object diagram costs money and time
+- Model-Code Gap
+
 
 
 
