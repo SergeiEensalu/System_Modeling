@@ -1,4 +1,4 @@
-# Reflections of week 6
+# Reflections of week 7
 
 ## Lecture Reflection
 The lecture was in a classic format for this subject. ULNO also said that soon there will be some changes in the team and tasks, that our team will become larger. Waiting
