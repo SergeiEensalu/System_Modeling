@@ -20,6 +20,7 @@ Doesn't make sense to use when you have no parallel behaviour in your use case
 
 ## Lecture
 ### Some lecture specific section
+We didn't have a quiz or a small interactive section this week.
 ### Breakout room 3
 Since our group made one of the videos, then I decided to moderate so others could provide the pros and the cons. The discussion went very smoothly.
 ### Feedback for the lecture
