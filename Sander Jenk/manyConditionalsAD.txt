@@ -1,0 +1,41 @@
+@startuml
+(*) -> "Select the items" 
+-> "Add to cart" 
+if "User has discount code" then
+->[yes] "Apply discount"
+-> "Enter billing address"
+
+else
+-->[no] "Enter billing address"
+
+if "Store credit chosen" then
+->[yes] "Subtract credit from bill"
+-> ==AFTER_CREDIT===
+else 
+  ->[no] ==AFTER_CREDIT===
+
+  if "Paypal chosen" then
+       -right->[yes] "Redirect to PayPal"
+       -right-> "Pay by PayPal"
+       -right-> "Redirect back"
+       --> ==AFTER_PAYMENT===
+  else 
+if "Installments chosen" then
+       -left->[yes] "Select payment period"
+       -left-> "Pay in installments"
+       --> ==AFTER_PAYMENT===
+    
+    else
+     if "Transfer chosen" then
+     ->[yes] "Pay by transfer"
+     --> ==AFTER_PAYMENT===
+     else
+       if "Debit card chosen" then
+    ->[yes] "Pay by debit card"
+    --> ==AFTER_PAYMENT===
+       else 
+       --> "Pay by credit card"
+       --> ==AFTER_PAYMENT===
+       -> "Send payment confirmation"
+       -right-> (*)
+@enduml
