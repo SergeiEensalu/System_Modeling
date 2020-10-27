@@ -24,4 +24,4 @@ We didn't have a quiz or a small interactive section this week.
 ### Breakout room 3
 Since our group made one of the videos, then I decided to moderate so others could provide the pros and the cons. The discussion went very smoothly.
 ### Feedback for the lecture
-I liked the chaotic collaborative board thingy part of the lecture. The breakout went well and we had good participation. The model checker example is difficult and I think there is no need for us to do something like that. 
+I liked the chaotic collaborative board thingy part of the lecture. The breakout went well and we had good participation. The model checker example is difficult and in my opinion we don't really need to do something like that, seems a bit out of this course's scope.
