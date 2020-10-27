@@ -14,8 +14,7 @@ but the guys and I agreed that I would do a certain part of the practice to be h
 The volume of practice seemed to me a bit large and it went beyond 2 hours ...
 
 
-## Component Diagrams video by students
-https://www.youtube.com/watch?v=jmjxVekJ78g
+## Component Diagrams my opinion
 
 Component diagrams can be seen as one step up on the abstraction ladder in comparison to the class 
 diagrams as each component can be implemented by one or more classes.
@@ -30,7 +29,48 @@ A component is a physical part of a system. Components, which are files with sou
 
 
 
+## Component Diagrams my opinion
 
+Component diagrams show how software objects are categorized to form larger components. 
+Component diagrams provide a simplified high order view of a large system by classifying a group of software 
+objects as a component the entire system becomes more modular as components may be interchanged and reused. 
+The simplicity allows component diagrams to be used as a communication tool between the developer and different 
+stakeholders. Component diagrams can also be used to create a roadmap for an implementation. 
+
+
+## Group 14 Component Diagram props
+https://www.youtube.com/watch?v=POZ5mCuGEiw
+- Is useful to understand the system as it answers questions as: 
+
+        - What the main components of the system ? 
+        
+        - How is the system decomposed ?
+        
+        - How do there components interact with each other from the static viewpoint of the service
+            that they provide and require
+- Simplify the high level of the system 
+- Supports Revers-Engineering
+- A "selfie" of the software architecture 
+
+## Group 4 Component Diagram props
+https://www.youtube.com/watch?v=zhNTCCDxGvg
+- Can see the software project from a hight level
+- Helps  to understands the code
+- Good for a wide range of applications 
+
+## Group 12 Component Diagram cons
+https://drive.google.com/file/d/19KVPQ4Oz2KlWX9z7tCNP_d3nrUe6mj75/view
+- if logic of interfaces is changed, difficult to maintain the diagram
+- not abstract enough 
+
+## Group 13 Component Diagram cons
+https://www.youtube.com/watch?v=jmjxVekJ78g&feature=youtu.be
+- Are not abstract nor the real system
+- in the simple systems class diagram might be enough 
+- The same idea can be conveyed in multiple ways
+- One component can be shown in at least 4 different ways 
+- Synonymity
+- Hard to do well
 
 
 

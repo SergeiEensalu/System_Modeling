@@ -503,3 +503,83 @@ What did I like/dislike:
 -   Liked the visuals
 -   Liked the one-by-one explanation of notation elements
 -   Liked the tone of the speakers (not monotonous)
+
+### October 20 class + lab
+Are state charts better than plain (and documented) code?
+
+I would say the two complement each other. State charts can be used to communicate the
+information to less technical stakeholders who benefit more from visuals than from trying
+to dig into the code. 
+
+Why would ulno fire people who use recursion?
+It can be dangerous to use recursion because the state space is unbounded
+and if we have limited resources (memory), the system can crash.
+
+### Preparation for October 27 class
+**Activity diagrams**
+
+Pro arguments:
+1.	Suitable for creating an understanding of the business process (modelling the workflow)
+2.  Beneficial for representing parallel and multithreaded behavior
+
+Contra arguments:
+1.	Do not provide additional value for sequential algorithms
+2.  Not always object-oriented, thus larger model-code gap and less benefit for developers
+
+**Group 2+6 video on pros**
+
+What are main points I learned from movie:
+-   Different kinds of actions (normal, operation, behavior)
+-   A single action is undivisible and uninterruptible
+-   Distinction between active participants and passive objects
+
+What did I like/dislike:
+-   The dog / murder robot / cleaning robot example
+-   Applications explained
+-   Mancala activity diagram as an example
+
+How would the usage affect my own past, current, and potential future projects:
+-	Can be used for understanding the workflow, analyzing use cases
+
+**Event storming**
+
+Lecture by Alberto Brandolini:
+
+- In which contexts does Alberto use the term model or modeling 
+during this presentation (try to at least find three - there are more)?
+
+1. In event storming, big picture workshops are discussions that involve people from different
+areas with the aim to model an entire business line with domain events
+2. When elaborating on the exploration of domain events, he again mentions the goal to model the
+business line
+3. He mentions models when making the point of different stakeholders having different
+expectations, which entails them requiring different models as well
+4. He talks about process modelling and its differences with software design, saying that
+we might have a consensus on the process, but it's more difficult to achieve a consensus
+on the design
+
+- How does Event Storming relate to the UML?
+
+It has a similar goal (to model the processes), but tries to do so in a less
+notational, more intuitive way and arrive at a solution. Event storming uses domain events
+as the modelling language to allow storytelling which can seem more interesting to stakeholder.
+Domain events can also be looked at from different levels (can have different perspectives
+from the same foundations)
+
+- What is the goal of Event Storming in terms of software development and understanding?
+
+The goal is to understand the domain better from collecting input from different parties as well as
+external factors, and putting it all together. Having this thorough understanding (the whole picture)
+and consensus, we can design and develop software accordingly
+
+- What does Bruce Lee have to do with all this?
+
+He says that we know the modelling session is over when we reach the Bruce Lee state -
+this means that we are confident in our understanding of the model and feel like we can
+take on more requirements and additional complexity
+
+- optional (let's see if you can catch this): In which context does Alberto mention 
+State Charts or State Machines (I think he mentions them only once, but pay attention)?
+
+He mentions state machines when talking about investigating aggregates, where the focus
+is on behavior and not data
