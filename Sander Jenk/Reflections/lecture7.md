@@ -4,6 +4,7 @@
 1. Strongest argument
 Model checking, testing: generating code from state diagrams; good for finding errors (not explained enough)
 2. Movie Thoughts  
+Model checking is a nice argument. Good detailed movie.
 ### group 11 state diagram diagram pro movie
 1. Strongest argument
 Make system behavour visible and understandable, easy to visualise complex systems, model checking, non-technical roles understand
@@ -33,6 +34,9 @@ Any other case
 ### Some lecture specific section
 Why Ulno fires recursion users: If Ulno used functional languages, he would not have any employees (we have a functional programming class and basically everything is recursion). Recursion allows you to remove side effects from problems and make your code more expressive and readable. So maybe Ulno hates readable and clean code and having employees? (It's a joke obviously)
 ### Breakout
+I provided a challenge for a point that said that state diagrams are hard to maintain. I said that it can be probably said about every diagram out there and by not explaining it further, the argument doesn't provide much value. I think I provided a more detailed answer: A lot of new states makes diagram unreadable and to avoid that you would have to know more difficult notations in state diagrams like parallel states, hierarchy, guards
 ### Feedback for the lecture
+Nice lecture, the model checker stuff is complicated. Breakout room went well.
 
-A lot of new states makes diagram unreadable and to avoid that you would have to know more difficult notations in state diagrams like parallel states, hierarchy, guards
+### Reflections for the lab
+Thankfully we didn't have exercises for our lab so we could focus on working on our video. We had a nice chat with Ulno about editing techniques and programs and how to make the con movie.
