@@ -667,3 +667,12 @@ How would the usage affect my own past, current, and potential future projects:
 -   I believe that deployment diagrams are one of the most straightforward ones in the
 UML hierarchy with direct benefits in most cases (unless the system is very simple,
 which is rarely the case)
+
+### November 3 class
+
+Leaders and task examples:
+1. Product owner - ensure coherent understanding of required functionality among team members
+2. Scrum master - choose a tool to use for project management, add the team, give instructions
+for using this tool; keep track of time limits during meetings
+3. Architecture owner - review code produced by developers in terms of adhering to agreed
+design patterns and architectural decisions

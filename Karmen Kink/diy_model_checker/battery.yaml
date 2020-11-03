@@ -1,0 +1,161 @@
+statechart:
+  name: Battery
+  preamble: |
+    pos_counter = 0
+    neg_counter = 0
+    switch_on = True
+  root state:
+    name: Battery Level
+    initial: Empty
+
+    states:
+      - name: Empty
+        transitions:
+          - target: 25% charged
+            guard: switch_on == True and pos_counter == 2
+            event: forward 10 minutes
+            action: |
+              pos_counter = 0
+              neg_counter = 0
+
+          - target: Empty
+            event: forward 10 minutes (repeat 2 times)
+            guard: switch_on == True and pos_counter < 2
+            action: pos_counter + 1
+
+          - target: Empty
+            event: turn switch on
+            guard: switch_on == False
+            action: |
+              switch_on = True
+              pos_counter = 0
+
+
+      - name: 25% charged
+        transitions:
+          - target: 40% charged
+            guard: switch_on == True and pos_counter == 2
+            event: forward 10 min
+            action: |
+              pos_counter = 0
+              neg_counter = 0
+
+          - target: Empty
+            guard: switch_on == False and neg_counter == 2
+            event: forward 10 min
+            action: |
+              pos_counter = 0
+              neg_counter = 0
+
+          - target: 25% charged
+            event: forward 10 min
+            guard: switch_on == True and pos_counter < 2
+            action: pos_counter + 1
+
+          - target: 25% charged
+            event: forward 10 min
+            guard: switch_on == False and neg_counter < 2
+            action: neg_counter + 1
+
+          - target: 25% charged
+            event: turn switch on
+            guard: switch_on == False
+            action: |
+              switch_on = True
+              pos_counter = 0
+
+      - name: 40% charged
+        transitions:
+          - target: 60% charged
+            guard: switch_on == True and pos_counter == 2
+            event: forward 10 min
+            action: |
+              pos_counter = 0
+              neg_counter = 0
+
+          - target: 25% charged
+            guard: switch_on == False and neg_counter == 2
+            event: forward 10 min
+            action: |
+              pos_counter = 0
+              neg_counter = 0
+
+          - target: 40% charged
+            event: forward 10 min
+            guard: switch_on == True and pos_counter < 2
+            action: pos_counter + 1
+
+          - target: 40% charged
+            event: forward 10 min
+            guard: switch_on == False and neg_counter < 2
+            action: neg_counter + 1
+
+          - target: 40% charged
+            event: turn switch on
+            guard: switch_on == False
+            action: |
+              switch_on = True
+              pos_counter = 0
+
+      - name: 60% charged
+        transitions:
+          - target: 80% charged
+            guard: switch_on == True and pos_counter == 2
+            event: forward 10 min
+            action: |
+              pos_counter = 0
+              neg_counter = 0
+              switch_on = False
+
+          - target: 40% charged
+            guard: switch_on == False and neg_counter == 2
+            event: forward 10 min
+            action: |
+              pos_counter = 0
+              neg_counter = 0
+
+          - target: 60% charged
+            event: forward 10 min
+            guard: switch_on == True and pos_counter < 2
+            action: pos_counter + 1
+
+          - target: 60% charged
+            event: forward 10 min
+            guard: switch_on == False and neg_counter < 2
+            action: neg_counter + 1
+
+          - target: 60% charged
+            event: turn switch on
+            guard: switch_on == False
+            action: |
+              switch_on = True
+              pos_counter = 0
+
+      - name: 80% charged
+        transitions:
+          - target: 60% charged
+            guard: switch_on == False and neg_counter == 2
+            event: forward 10 min
+            action: |
+              pos_counter = 0
+              neg_counter = 0
+
+          - target: 80% charged
+            event: forward 10 min
+            guard: switch_on == False and neg_counter < 2
+            action: neg_counter + 1
+
+
+      - name: Full
+        transitions:
+          - target: 80% charged
+            guard: switch_on == False and neg_counter == 2
+            event: forward 10 min
+            action: |
+              pos_counter = 0
+              neg_counter = 0
+
+          - target: Full
+            event: forward 10 min
+            guard: switch_on == False and neg_counter < 2
+            action: neg_counter + 1
