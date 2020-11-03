@@ -3,7 +3,7 @@ Think and answer the following questions (and keep a digital document of this fo
 - Which types of diagrams are mentioned in the talk?
 The commonly seen types that software companies tend to produce: boxes, the airline route map, the “generally true” diagrams which state the obvious, etc. Also, UML diagrams
 - What is the standard for modeling software mentioned in the movie?
-UML (Unifies Modeling Language)
+UML (Unified Modeling Language)
 - Why is nobody using it?
 Too complex, too low-level, agile developers don’t use it (although they should)
 - What is the model-code gap and what is the problem with it?
@@ -48,9 +48,15 @@ Pro arguments:
 1.	Concrete, allows to exemplify the structure of a system in a way that is easier to digest than an abstract diagram
 2.	Well suited for representing a certain part of the system, scope can be adjusted easily
 
+Makes sense to use for modelling the system at a particular point in time, e.g. if it is
+necessary to show the initial state for some application
+
 Contra arguments:
 1.	Attributes and values might be not that intuitive for non-CS people
 2.	Quite narrow is terms of usage possibilities, only meant for specifying the data structures of a system
+
+Doesn't make sense to use for a high-level view because object diagram provides one static
+view of a system
 
 **Group 5 video on pros**
 
@@ -99,8 +105,12 @@ Pro arguments:
 1.	The structure of the system can be represented quite comprehensively before starting development (via class attributes, relationships, types)
 2.	Rather easy to maintain and update by adding, removing or editing attributes/relationships/methods
 
+Makes sense to use for illustrating data models for any kind of systems
+
 Contra arguments:
 1.	General readability probably worse for non-developers than for developers (all the different relationships, methods vs attributes, etc.)
+
+Doesn't make sense to make class diagrams too detailed for non-developer target audience
 
 **Group 7 video on pros**
 
@@ -168,9 +178,13 @@ Pro arguments:
 1.	Good way to visualize the relations between different parts of the system (the big picture)
 2.  High-level mapping, simplifies decision-making about system structure
 
+Makes sense to use in the implementation phase of a system (helps to model the software artifacts)
+
 Contra arguments:
 1.	Targeted towards developers, not easy to grasp for others, although meant for communication
 2.  Possibly high maintenance costs
+
+Doesn't make sense to use for simple systems where class diagrams might do the job
 
 **Group 14 video on pros**
 
@@ -301,10 +315,14 @@ Pro arguments:
 3.  Use case diagrams allow to describe what stakeholders exactly do (how a process goes)
 4.  Beneficial in the planning phase when requirements must be captured
 
+Makes sense to use for understanding and communicating user requirements
+
 Contra arguments:
 1.	One use case diagram has a very limited scope. In order to describe the system from many angles,
 we need a bunch of use case diagrams
 2.  It is possible to make even use case diagrams too complex by including too many elements and associations
+
+Doesn't make sense to use when personas are not based on research
 
 **Group 1 video on pros**
 
@@ -387,11 +405,17 @@ Pro arguments:
 2.  Helpful for developers, especially when different parts are developed by different groups of people
 (can specify in advance how the interactions should look like)
 
+Makes sense to use in case of large projects to ensure a global understanding of the interactions
+between parts of a system
+
 Contra arguments:
 1.	One sequence diagram has limited scope (often used as a complement to a use case diagram which is
 also limited)
 2.  Although their goal is to provide a more low-level view of a use case, they cannot hold all
 necessary details and still remain legible
+
+Doesn't make sense to use for capturing a large part of a system at once (becomes illegible
+with too many elements)
 
 **Group 13 video on pros**
 
@@ -441,9 +465,13 @@ Pro arguments:
 1.	Well suited for representing the behavior of reactive systems (e.g. how the system reacts to certain events)
 2.  Helpful for developers for modelling the states that an object can have during its life cycle
 
+Makes sense to use for model-checking and ensuring correctness of the system
+
 Contra arguments:
 1.	Limited in scope (not very useful for non-reactive systems)
 2.  Can become difficult to read when objects have a large number of possible states
+
+Doesn't make sense to use for communication when a very detailed view is not needed 
 
 **Group 9 video on pros**
 
@@ -518,13 +546,23 @@ and if we have limited resources (memory), the system can crash.
 ### Preparation for October 27 class
 **Activity diagrams**
 
+Our group prepared the con video for activity diagrams. We had several sessions of working
+together and preparing the slides and script, after which we divided the parts between
+ourselves and each prepared for presenting their part. We recorded our voice clips and then
+merged them with the slide show into a video.
+
 Pro arguments:
 1.	Suitable for creating an understanding of the business process (modelling the workflow)
 2.  Beneficial for representing parallel and multithreaded behavior
 
+Makes sense to use for showing the workflow of complex systems that include parallelism
+
 Contra arguments:
 1.	Do not provide additional value for sequential algorithms
 2.  Not always object-oriented, thus larger model-code gap and less benefit for developers
+
+Doesn't make sense to use in too abstract notation which cannot be mapped to code if developers
+are in the target group
 
 **Group 2+6 video on pros**
 
@@ -583,3 +621,49 @@ State Charts or State Machines (I think he mentions them only once, but pay atte
 
 He mentions state machines when talking about investigating aggregates, where the focus
 is on behavior and not data
+
+### Preparation for November 3 class
+**Deployment diagrams**
+
+Our group prepared the pro video for deployment diagrams. This time we had one session
+of working together as we divided the parts between ourselves earlier on and each prepared 
+for presenting their part. We recorded our voice clips and then merged them with the slide 
+show into a video.
+
+Pro arguments:
+1.	Helpful tool for planning the physical architecture of a system (incl. costs)
+2.  Provides a quick overview of the hardware topology which is beneficial both for
+communication in the planning phase as well as later support and maintenance
+
+Makes sense to use whenever architecture-related decisions need to be made or communicated
+
+Contra arguments:
+1.	Possibly unnecessary for simple systems
+2.  In some cases, more flexible alternatives might suit better
+
+Doesn't make sense to use when a simplistic high-level overview with little details is needed
+(free-form diagrams might do the work as well or even better)
+
+**Group 4 video on cons**
+
+What are main points I learned from movie:
+-   There is a separate stereotype <<security>>
+-   1-n connections are not allowed? (I'm not sure about that because I did see cardinality
+being used in some sources)
+
+What did I like/dislike:
+-   The first con was again about difficulties with understanding the diagrams,
+which is the case with any modelling type if not thought through enough
+-   Mixed abstraction levels (software-hardware) were mentioned as a con, 
+while one of the main points of the deployment diagrams is to show where 
+software artifacts are deployed in hardware
+-   The Mancala example was quite a far stretch in my opinion - usually objects are
+not represented like that on deployment diagrams. Instead, artifacts are shown, which
+are like the "products" that the software program creates, e.g. there might be mancala.exe,
+gamelog.txt, or filenames of the classes, and the diagram should show where these 
+artifacts are deployed
+
+How would the usage affect my own past, current, and potential future projects:
+-   I believe that deployment diagrams are one of the most straightforward ones in the
+UML hierarchy with direct benefits in most cases (unless the system is very simple,
+which is rarely the case)
