@@ -3,11 +3,13 @@ package net.ulno.fulib;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 public class Game {
     public Player player1;
     public Player player2;
     private Player winner;
+    private final Integer id;
 
     public boolean isRunning() {
         return isRunning;
@@ -18,6 +20,15 @@ public class Game {
     public Game(Player player1, Player player2) {
         this.player1 = player1;
         this.player2 = player2;
+        int range = 1000000;
+        Random r = new Random();
+        this.id = r.nextInt(range);
+    }
+
+    public Game() {
+        int range = 1000000;
+        Random r = new Random();
+        this.id = r.nextInt(range);
     }
 
     public void startGame(List<Integer> counts1, List<Integer> counts2) {
@@ -182,5 +193,9 @@ public class Game {
 
     public Player getWinner() {
         return winner;
+    }
+
+    public Integer getId() {
+        return id;
     }
 }

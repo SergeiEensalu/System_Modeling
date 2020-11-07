@@ -8,10 +8,7 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -87,7 +84,10 @@ public class GameTest {
         game.playTurn(player1, player2, 2);
         assertTrue(player1.getIsHisTurn());
 
-        WebConnector.run(game);
+        HashMap<Integer, Game> games = new HashMap<>();
+        games.put(game.getId(), game);
+
+        WebConnector.run(games);
     }
 
     @Test
@@ -123,23 +123,24 @@ public class GameTest {
     @Test
     public void test3_player1() throws IOException, InterruptedException {
         Player player1 = new Player().setName("Mary");
-        player1.setId(1);
         Player player2 = new Player().setName("John");
-        player2.setId(2);
         Game game = new Game(player1, player2);
         List<Integer> list1 = Arrays.asList(3, 4, 4, 0, 4, 4);
         List<Integer> list2 = Arrays.asList(0, 0, 0, 0, 0, 1);
         game.startGame(list1, list2);
 
-        WebConnector.run(game);
+        HashMap<Integer, Game> games = new HashMap<>();
+        games.put(game.getId(), game);
+
+        WebConnector.run(games);
         Gson gson = new Gson();
         Turn turn = new Turn();
         turn.setPlayerId(1);
         turn.setBucketId(0);
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("http://localhost:40080/playturn"))
-                .POST(HttpRequest.BodyPublishers.ofString(gson.toJson(turn)))
+                .uri(URI.create("http://localhost:40080/gamestate/"+game.getId().toString()))
+                .GET()
                 .build();
         HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
         System.out.println(response);

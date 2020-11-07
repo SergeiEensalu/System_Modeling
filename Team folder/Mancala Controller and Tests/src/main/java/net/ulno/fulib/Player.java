@@ -1,9 +1,10 @@
 package net.ulno.fulib;
 import java.beans.PropertyChangeSupport;
 import java.beans.PropertyChangeListener;
-import java.util.Objects;
+import java.util.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Collections;
 import java.util.Collection;
 
@@ -18,11 +19,17 @@ public class Player
    private List<Bucket> buckets;
    public static final String PROPERTY_house = "house";
    private House house;
-   private Integer id;
+   private final Integer id;
 
    public boolean getIsHisTurn()
    {
       return this.isHisTurn;
+   }
+
+   public Player() {
+      int range = 1000000;
+      Random r = new Random();
+      this.id = r.nextInt(range);
    }
 
    public Player setIsHisTurn(boolean value)
@@ -215,7 +222,4 @@ public class Player
       return id;
    }
 
-   public void setId(Integer id) {
-      this.id = id;
-   }
 }

@@ -3,14 +3,45 @@ package net.ulno.fulib;
 import com.google.gson.Gson;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 import static spark.Spark.*;
 
 public class WebConnector {
 
-    public static void run(Game game) {
+    public static void run(HashMap<Integer, Game> games) {
         port(40080);
-        get("/player", (req, res) -> {
+
+        post("/game", (req, res) -> {
+            Game newGame = new Game();
+            games.put(newGame.getId(), newGame);
             JSONObject json = new JSONObject();
+            json.put("result", "OK");
+            return json.toString();
+        });
+
+        get("/games/:id/:name/:playerNumber", (req, res) -> {
+            Integer gameId = Integer.valueOf(req.params(":id"));
+            Game game = games.get(gameId);
+            String playerName = req.params(":name");
+            Player player = new Player().setName(playerName);
+            int playerNumber = Integer.parseInt(req.params(":playerNumber"));
+            if (playerNumber == 1) {
+                game.setPlayer1(player);
+            }
+            else {
+                game.setPlayer2(player);
+            }
+            JSONObject json = new JSONObject();
+            json.put("result", "OK");
+            return json.toString();
+        });
+
+        get("/player/:id", (req, res) -> {
+            JSONObject json = new JSONObject();
+            Integer gameId = Integer.valueOf(req.params(":id"));
+            Game game = games.get(gameId);
             Player player = game.getNextPlayer();
             json.put("id", player.getId());
             json.put("name", player.getName());
@@ -26,8 +57,10 @@ public class WebConnector {
             return json.toString();
         });
 
-        get("/gamestate", (req, res) -> {
+        get("/gamestate/:id", (req, res) -> {
             JSONObject json = new JSONObject();
+            Integer gameId = Integer.valueOf(req.params(":id"));
+            Game game = games.get(gameId);
             for (Player player : game.getPlayers()) {
                 JSONObject json1 = new JSONObject();
                 json1.put("id", player.getId());
@@ -44,14 +77,17 @@ public class WebConnector {
             }
             json.put("winner", game.getWinner());
             json.put("isRunning", game.isRunning());
+            System.out.println(json.toString());
             return json.toString();
         });
 
-        post("/playturn", (request, response) -> {
+        post("/playturn/:id", (request, response) -> {
             response.type("application/json");
+            Integer gameId = Integer.valueOf(request.params(":id"));
             Gson gson = new Gson();
             Turn turn = gson.fromJson(request.body(), Turn.class);
             JSONObject json = new JSONObject();
+            Game game = games.get(gameId);
             Player player = game.getNextPlayer();
             Player opponent = game.getOpponent();
             if (player.getId() == turn.getPlayerId()) {
