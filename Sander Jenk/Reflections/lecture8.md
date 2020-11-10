@@ -2,7 +2,9 @@
 ## Homework
 ### Group 2+6 activity pro diagram movie
 1. Strongest argument  
+Visualising parallel behaviour. Illustrate individuals steps and order of steps of processes. Demonstrate logic of algorithms. Good to combine with use case diagrams. Can generate code from the diagram (app.genmymodel.com)
 2. Movie Thoughts  
+There is an argument that precise style makes for a good diagram? What a surprise! Actually it was a well done movie, very thorough and also very long.
 ### Group 8 activity con diagram movie
 1. Strongest argument  
 Absolutely every argument, especially the one that mentioned that activity diarams are pointless to use when there is no parallel behaviour in your use case
