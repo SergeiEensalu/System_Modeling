@@ -24,7 +24,7 @@ If you have a monolith, that lives in one server
 Product owner - make sure that scrum master and achitects understand the requirements
 Scrum master - assigning tasks, that fit developers the best, basically to understand everyones skills and preferences and making compromises; chooses the task management software and refining the backlog and it's workflow
 Architecture owner - decides on the technology stack based on the skills of the developers and the task at hand, decides on the design patterns and assures that developers have enough knowledge about the requirements, by providing diagrams that explain diffenent processes and use cases
-### Breakout room 2
-Breakout was difficult, I chose to be the moderator again because I made one of the videos. Half of the people weren't connected with microphones and the other half didn't want to speak. Also people discovered the drawing tools so they focused more on that.
+### Breakout - MODERATOR
+Breakout was difficult, I chose to be the moderator again because I made one of the videos. Half of the people weren't connected with microphones and the other half didn't want to speak. I had to ask people by name to get anyone to speak up. Also people discovered the drawing tools so they focused more on that. We managed to finish the document though.
 ### Feedback for the lecture
 The project seems again like an overkill for systems modeling course. A lot more programming heavy than other courses that are more programming related.
