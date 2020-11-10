@@ -2,7 +2,9 @@
 ## Homework
 ### Group 2+6 activity pro diagram movie
 1. Strongest argument  
+Visualising parallel behaviour. Illustrate individuals steps and order of steps of processes. Demonstrate logic of algorithms. Good to combine with use case diagrams. Can generate code from the diagram (app.genmymodel.com)
 2. Movie Thoughts  
+There is an argument that precise style makes for a good diagram? What a surprise! Actually it was a well done movie, very thorough and also very long.
 ### Group 8 activity con diagram movie
 1. Strongest argument  
 Absolutely every argument, especially the one that mentioned that activity diarams are pointless to use when there is no parallel behaviour in your use case
@@ -21,7 +23,9 @@ Doesn't make sense to use when you have no parallel behaviour in your use case
 ## Lecture
 ### Some lecture specific section
 We didn't have a quiz or a small interactive section this week.
-### Breakout room 3
-Since our group made one of the videos, then I decided to moderate so others could provide the pros and the cons. The discussion went very smoothly.
+### Breakout room 3 - MODERATOR
+Since our group made one of the videos, then I decided to moderate so others could provide the pros and the cons. The discussion went very smoothly, the participation was great and we even had a lot of free form discussion in our breakout which is pretty rare based on the experience from previous breakouts.
 ### Feedback for the lecture
 I liked the chaotic collaborative board thingy part of the lecture. The breakout went well and we had good participation. The model checker example is difficult and in my opinion we don't really need to do something like that, seems a bit out of this course's scope.
+### Feedback for the lab
+In the lab we continued working on our video and agreed to do the exercise later. We had a nice chat with Ulno about the video and got nice suggestions.

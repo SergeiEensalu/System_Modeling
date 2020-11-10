@@ -188,7 +188,14 @@ public class Game {
     }
 
     public List<Player> getPlayers() {
-        return Arrays.asList(this.player1, this.player2);
+        ArrayList<Player> list = new ArrayList<Player>();
+        if (player1 != null) {
+            list.add(player1);
+        }
+        if (player2 != null) {
+            list.add(player2);
+        }
+        return list;
     }
 
     public Player getWinner() {

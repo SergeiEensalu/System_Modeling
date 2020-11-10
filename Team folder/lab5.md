@@ -1,5 +1,5 @@
 # Building a Search Engine
-![image](images/lab5/Search Engine.png)
+![image](images/lab5/Search%20Engine.png)
 
 The search engine is drawn based on searching portfolio data. We can search based on keyword like "reflection","research" etc. We can also search based on tag and texts.
 This search engine would not be helpful if we wanted to build a competitor to the new Qwant or DuckDuckGo because the search engine made by Qwant and DuckDuckGo have
