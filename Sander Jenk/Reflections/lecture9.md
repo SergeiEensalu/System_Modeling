@@ -28,3 +28,5 @@ Architecture owner - decides on the technology stack based on the skills of the 
 Breakout was difficult, I chose to be the moderator again because I made one of the videos. Half of the people weren't connected with microphones and the other half didn't want to speak. I had to ask people by name to get anyone to speak up. Also people discovered the drawing tools so they focused more on that. We managed to finish the document though.
 ### Feedback for the lecture
 The project seems again like an overkill for systems modeling course. A lot more programming heavy than other courses that are more programming related.
+### Feedback for the lab
+In the lab we joined forces with group 2+6 and did some event storming. As expected, it was quite chaotic but we ended up with a nice looking board.

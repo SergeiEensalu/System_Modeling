@@ -13,5 +13,6 @@ We could use strategy patterns when there would be a lot of if else statements, 
 
 Composite patterns in bank should be used
 ### Breakout
+No breakout again
 
 ### Feedback for the lecture
