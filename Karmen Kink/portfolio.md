@@ -676,3 +676,22 @@ Leaders and task examples:
 for using this tool; keep track of time limits during meetings
 3. Architecture owner - review code produced by developers in terms of adhering to agreed
 design patterns and architectural decisions
+
+### Preparation for November 10 class
+
+Reading the SDM paper:
+
+One point that I'd like to see respected
+from this paper in our own story modeling session in the next lab:
+
+Providing example data for story steps - I agree with the paper in that this is
+an intuitive way for the stakeholders / domain experts to describe the data that is being
+handled in a high-level manner. It also helps developers when creating a data model later.
+
+### November 10 class
+
+Why do we want/need design patterns?
+
+Using design patterns creates some common features (best practices) that are expected
+from well-written code. This increases code reusability, maintainability, and creates
+standards.
