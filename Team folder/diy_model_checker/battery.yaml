@@ -13,13 +13,13 @@ statechart:
         transitions:
           - target: 25% charged
             guard: switch_on == True and pos_counter == 2
-            event: forward 10 minutes
+            event: forward 10 min
             action: |
               pos_counter = 0
               neg_counter = 0
 
           - target: Empty
-            event: forward 10 minutes (repeat 2 times)
+            event: forward 10 min
             guard: switch_on == True and pos_counter < 2
             action: pos_counter + 1
 

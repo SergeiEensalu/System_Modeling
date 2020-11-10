@@ -92,13 +92,11 @@ def main():
     # export something that we can visualize
     export_to_plantuml(state_chart, filepath = "battery-statechart-debug.plantuml")
     transitions = set([t.event for t in state_chart.transitions])  # set to avoid duplicates
+    print(state_chart.transitions)
     #  or efficient when skipping using transistions (transistions = None)
-#    state_graph = reachability(state_chart, transitions)  # blackbox test reachability
-#    print("These nodes will never come back to initial: ", ", ".join(check_no_way_to_initial(state_graph)))
-#    show(state_graph)
-    #state_graph = reachability(state_chart, transitions)  # blackbox test reachability
-    #print("These nodes will never come back to initial: ", ", ".join(check_no_way_to_initial(state_graph)))
-    #show(state_graph)
+    state_graph = reachability(state_chart, transitions)  # blackbox test reachability
+    print("These nodes will never come back to initial: ", ", ".join(check_no_way_to_initial(state_graph)))
+    show(state_graph)
 
 
 if __name__ == '__main__':
