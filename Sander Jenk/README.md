@@ -1,3 +1,11 @@
 
 [Lecture 1](./Reflections/lecture1.md)  
 [Lecture 2](./Reflections/lecture2.md)
+[Lecture 3](./Reflections/lecture3.md)
+[Lecture 4](./Reflections/lecture4.md)
+[Lecture 5](./Reflections/lecture5.md)
+[Lecture 6](./Reflections/lecture6.md)
+[Lecture 7](./Reflections/lecture7.md)
+[Lecture 8](./Reflections/lecture8.md)
+[Lecture 9](./Reflections/lecture9.md)
+[Lecture 10](./Reflections/lecture10.md)
