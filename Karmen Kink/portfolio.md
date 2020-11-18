@@ -676,3 +676,65 @@ Leaders and task examples:
 for using this tool; keep track of time limits during meetings
 3. Architecture owner - review code produced by developers in terms of adhering to agreed
 design patterns and architectural decisions
+
+### Preparation for November 10 class
+
+Reading the SDM paper:
+
+One point that I'd like to see respected
+from this paper in our own story modeling session in the next lab:
+
+Providing example data for story steps - I agree with the paper in that this is
+an intuitive way for the stakeholders / domain experts to describe the data that is being
+handled in a high-level manner. It also helps developers when creating a data model later.
+
+### November 10 class
+
+Why do we want/need design patterns?
+
+Using design patterns creates some common features (best practices) that are expected
+from well-written code. This increases code reusability, maintainability, and creates
+standards.
+
+### November 17 class
+
+Guest lecture by Marlon Dumas:
+
+**One of the most important application domains for BPM:**
+
+BPM could be very well suited in cases where it is crucial to have a fully
+functioning flow of processes, e.g. booking appointments in a medical centre,
+where each customer needs to be appointed a time as efficiently and
+conveniently as possible.
+
+**Where in this class would BPM be feasible?**
+
+BPM could easily be integrated into our banking-related course project. It
+could also be introduced when discussing activity diagrams, and the two could
+be compared.
+
+**How does BPM relate to flow-charts, activity diagrams, and statecharts?**
+
+BPM has its own notation called Business Process Model and Notation (BPMN). It
+allows to model a process using four core elements: activity, event, gateway, and
+sequence flow. These elements are very similar to these of UML activity diagrams
+and statecharts. The BPMN standardized notation is used more than UML activity 
+diagrams for process modeling nowadays.
+
+**Would it be easier to hand-code business processes than to model them?**
+
+I still think that in case of complex systems, especially when several groups
+of developers are working on different subparts of the problem, modelling the
+system in a more low-level manner can be very helpful to ensure that all persons
+involved are working towards the same goal and have the same bigger picture in mind.
+
+**Visitor design pattern**
+
+1. Problems/annoyances: creating new classes would be less convenient when using
+visitor patterns, because then a new visit method would need to be added to each
+visitor.
+2. Example for bank project: we might benefit from the visitor pattern for adding
+operations to 
+3. What did I think about the example? - I found it interesting and could not
+identify problems at first on my own. This is probably due to my not too large
+Java coding experience.
