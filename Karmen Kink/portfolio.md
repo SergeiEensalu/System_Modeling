@@ -758,8 +758,7 @@ in time
 1. What is Ncameo? - Ncameo supplies solutions for digital transformation in logistics,
 business operations, public sector, e-commerce and collaboration tools.
 2. What are their services? - They offer pre-built application that do not require coding
-from the client's side. The clients can drag and drop components to create custom applications
-and 
+from the client's side. The clients can drag and drop components to create custom applications.
 3. What are my expectations to them regarding Systems Modeling? - Since Ncameo creates templates,
 not complete custom solutions, I would expect them to put quite a lot of effort into modeling the
 various different use cases in a detailed way, because they need to ensure that the components are
@@ -775,3 +774,47 @@ user requirements modeled?
 3. How can Ncameo's no-code environment be helpful in our course project? Probably we could come
 up with a simple banking application much faster when using Ncameo's no-code environment
 4. Other:
+
+### December 1 class
+
+**Singleton design pattern**
+1. Problems/annoyances: a singleton is essentially a global variable, independent of the state
+of the program; needs to be treated with care when using multithreading (otherwise it could happen
+that a singleton is still created more than once)
+2. Example for bank project: maybe database connection?
+
+**Factory design pattern**
+
+*no discussion*
+
+**Fulib on steroids**
+1. How did you like working with Fulib in beginning of this class?
+3
+
+2. Explain your choice (why/what did you like, what did you dislike and why).
+I didn't really know what to expect of it and it took a bit of time to understand its
+advantages (being quite a systems-modeling-distant person until this course).
+
+3. Which feature looks exciting for you to revisit using Fulib in a software modeling environment?
+The mockups feature, since I didn't know previously that Fulib has it.
+
+4. Write down one example where the use of Fulib would have simplified your work with your current final project.
+I actually have used Fulib for the final project already. I used it to generate classes along
+with the class diagrams. I found it to be very helpful for generating the class methods that
+respect bidirectional referential integrity. However, I was not able to use the automatically produced
+diagrams, because the formatting made them unusable (texts were overlapping with each other).
+
+5. What are your two main reasons why you are not using Fulib anymore or would not use it again?
+I wouldn't exclude using Fulib for other projects. It is useful for code generation and sometimes
+for diagrams as well, but needs more flexibility for the latter.
+
+6. Write down at least one point that you would like to see change to make Fulib more attractive 
+for (students in) systems modeling?
+I'd like the generated class and object (and possibly other) diagrams to be more flexible - i.e., it should
+be possible to relocate elements on the diagrams and improve formatting manually where necessary. 
+It could also support other languages than Java (e.g. Python), and have more complete documentation.
+
+7. Would you have liked to do more work with Fulib to explore based on what you have seen right now?
+Yes
+
+8. Other particularities you spotted and want to share.
