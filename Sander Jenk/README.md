@@ -29,4 +29,8 @@
 ## Week 10
 * [Lecture 10](./Reflections/lecture10.md)
 ## Week 11
-* [Lecture 10](./Reflections/lecture11.md)
+* [Lecture 11](./Reflections/lecture11.md)
+## Week 12
+* [Lecture 12](./Reflections/lecture12.md)
+## Week 13
+* [Lecture 13](./Reflections/lecture13.md)
