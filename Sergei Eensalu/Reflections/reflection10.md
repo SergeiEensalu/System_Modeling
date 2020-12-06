@@ -1,4 +1,4 @@
-# Reflections of week 8
+# Reflections of week 10
 
 ## Lecture Reflection
 As always: I liked the lecture. I had heard very little about design patterns before and very superficially. Now there is a more detailed understanding of what it is and how it works.
