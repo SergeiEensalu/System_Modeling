@@ -35,5 +35,11 @@
  - [Lecture and lab reflection](/Sergei%20Eensalu/Reflections/reflection7.md)
  - [Lab work (no lab exercise)](/Sergei%20Eensalu/Labs/lab6%20-%20no%20lab%20exercise.md)
  - [Lecture work](/Sergei%20Eensalu/Lectures/lecture7.md)
+ 
+## Week 8
+ - [Lecture and lab reflection](/Sergei%20Eensalu/Reflections/reflection8.md)
+ - [Lab work (no lab exercise)](/Sergei%20Eensalu/Labs/lab8%20-%20no%20lab%20exercise.md)
+ - [Lecture work](/Sergei%20Eensalu/Lectures/lecture8.md)
+
 
 
