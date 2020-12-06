@@ -43,25 +43,20 @@
  
  ## Week 9
  - [Lecture and lab reflection](/Sergei%20Eensalu/Reflections/reflection9.md)
- - [Lab work](/Sergei%20Eensalu/Labs/lab9.md)
  - [Lecture work](/Sergei%20Eensalu/Lectures/lecture9.md)
 
 ## Week 10
  - [Lecture and lab reflection](/Sergei%20Eensalu/Reflections/reflection10.md)
- - [Lab work](/Sergei%20Eensalu/Labs/lab10.md)
  - [Lecture work](/Sergei%20Eensalu/Lectures/lecture10.md)
  
  ## Week 11
  - [Lecture and lab reflection](/Sergei%20Eensalu/Reflections/reflection11.md)
- - [Lab work](/Sergei%20Eensalu/Labs/lab11.md)
  - [Lecture work](/Sergei%20Eensalu/Lectures/lecture11.md)
  
   ## Week 12
  - [Lecture and lab reflection](/Sergei%20Eensalu/Reflections/reflection12.md)
- - [Lab work](/Sergei%20Eensalu/Labs/lab12.md)
  - [Lecture work](/Sergei%20Eensalu/Lectures/lecture12.md)
   
   ## Week 13
  - [Lecture and lab reflection](/Sergei%20Eensalu/Reflections/reflection13.md)
- - [Lab work](/Sergei%20Eensalu/Labs/lab13.md)
  - [Lecture work](/Sergei%20Eensalu/Lectures/lecture13.md)
