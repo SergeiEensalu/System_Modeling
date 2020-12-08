@@ -458,7 +458,8 @@ What are main points I learned from movie:
 What did I like/dislike:
 -   Liked clear explanation of notations
 
-#Preparation for October 20 class
+# Preparation for October 20 class
+
 **State diagrams**
 
 Pro arguments:
