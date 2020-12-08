@@ -818,3 +818,40 @@ It could also support other languages than Java (e.g. Python), and have more com
 Yes
 
 8. Other particularities you spotted and want to share.
+
+# December 8 class
+**Summary of design patterns by Ishaya**
+Top 2 design patterns:
+1. Decorator pattern. I think decorators are a neat way to dynamically add 
+functionality to objects without directly changing the underlying class
+2. Builder pattern. I think builders can be very useful for creating objects
+of classes that have many attributes and where otherwise a multitude of different constructors would 
+be used
+
+**Systems Modeling in Real Life by Adam Malik**
+1. What was most impressive, particular, insightful in Adam's history and current way of work?
+
+From his description, the last project he worked on (ERP in medical domain) sounded hectic and very
+challenging (he mentioned no modularity, no possibilities for version control or testing). Also, 
+the huge Miro board was impressive.
+
+2. One question regarding architectural or modeling elements in his work
+
+How long have you been working on the Miro board?  Which other modeling techniques have you tried?
+
+3. What is Adam's opinion on No-code frameworks/development and do you share it or oppose it? Why?
+
+He thinks that No-code frameworks are quite limited - when you need something extra, there will be
+problems. I have the same feeling and I think that if you have a large and complex systems which
+ needs to be flexible and extendable, then No-code is probably not a good choice.
+
+4. What is Adam's opinion on modeling and working with modeling in the university context, what
+ role did this play for his future career? Do you share or oppose his opinion - why?
+ 
+Not sure if this is explicitly "in the university context", but I understand that Adam believes
+that software and its parts need to be understandable, otherwise it will be discarded at some
+point because it cannot be updated if it is not understood. He doesn't use UML, but uses other
+techniques that actually have the same purpose. He says that the times he did use UML in
+university taught him to think on a more abstract level and structure the systems.
+ 
+5. Optional: any other question/remark
