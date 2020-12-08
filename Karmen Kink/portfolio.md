@@ -755,24 +755,40 @@ in time
 3. Example for other use cases: queuing commands and executing in a batch at a later time
 
 **Preparation for Ncameo presentation**
-1. What is Ncameo? - Ncameo supplies solutions for digital transformation in logistics,
+1. What is Ncameo? 
+
+Ncameo supplies solutions for digital transformation in logistics,
 business operations, public sector, e-commerce and collaboration tools.
-2. What are their services? - They offer pre-built application that do not require coding
+
+2. What are their services? 
+
+They offer pre-built application that do not require coding
 from the client's side. The clients can drag and drop components to create custom applications.
-3. What are my expectations to them regarding Systems Modeling? - Since Ncameo creates templates,
-not complete custom solutions, I would expect them to put quite a lot of effort into modeling the
-various different use cases in a detailed way, because they need to ensure that the components are
-relevant and that nothing crucial is missing.
+
+3. What are my expectations to them regarding Systems Modeling? 
+
+Since Ncameo creates templates, not complete custom solutions, I would expect them to put quite a
+ lot of effort into modeling the various different use cases in a detailed way, because they need
+ to ensure that the components are relevant and that nothing crucial is missing.
 
 **Ncameo presentation**
-1. Most impressive/insightful aspect in Ncameos history and work: I found it interesting that
+1. Most impressive/insightful aspect in Ncameos history and work: 
+
+I found it interesting that
 they don't divide their work into back-end and front-end, their developers work with the whole
 tool end-to-end. 
-2. Question regarding modeling elements in their practice: how does Ncameo approach systems
+
+2. Question regarding modeling elements in their practice: 
+
+How does Ncameo approach systems
 modeling in general? How do they decide on new templates and elements, how are (possible)
 user requirements modeled?
-3. How can Ncameo's no-code environment be helpful in our course project? Probably we could come
-up with a simple banking application much faster when using Ncameo's no-code environment
+
+3. How can Ncameo's no-code environment be helpful in our course project? 
+
+Probably we could come up with a simple banking application much faster when using Ncameo's no
+-code environment
+
 4. Other:
 
 # December 1 class
@@ -821,7 +837,9 @@ Yes
 
 # December 8 class
 **Summary of design patterns by Ishaya**
+
 Top 2 design patterns:
+
 1. Decorator pattern. I think decorators are a neat way to dynamically add 
 functionality to objects without directly changing the underlying class
 2. Builder pattern. I think builders can be very useful for creating objects
