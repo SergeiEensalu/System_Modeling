@@ -21,17 +21,23 @@ Start of the game:
 ![image](images/lab6/lab6_wireframe_startgame_2.png)
 
 The first few moves of gameplay:
+
 ![image](images/lab6/lab6_wireframe_move1.png)
 
 ![image](images/lab6/lab6_wireframe_move2.png)
 
 End of the game:
+
 ![image](images/lab6/lab6_wireframe_endgame.png)
 
 # Mancala GUI
+
 Start of the game:  
+
 ![image](images/lab6/mancala_angular_start.PNG)  
+
 End of the game  
+
 ![image](images/lab6/mancala_angular_end.PNG)  
 
 

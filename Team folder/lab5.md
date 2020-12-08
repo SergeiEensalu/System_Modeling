@@ -9,9 +9,11 @@ spent 5-10 years for developing and is developed by expert research personnel.Th
 # Mancala Usecase Diagrams
 
 High-level diagram:
+
 ![image](images/lab5/lab5_mancala_highlevel.PNG)
 
 Low-level diagram:
+
 ![image](images/lab5/lab5_mancala_lowlevel.PNG)
 
 In team discussion we reached the conclusion that the low-level use-case diagram

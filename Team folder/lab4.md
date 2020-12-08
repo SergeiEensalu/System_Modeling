@@ -18,6 +18,7 @@ The following object diagrams are created according to the first scenario from E
 
 ![image](images/lab4/lab4_mancala_initial_1.PNG)
 ![image](images/lab4/lab4_mancala_initial_2.PNG)
+
 * Object states
 
 ![image](images/lab4/lab4_mancala_after_1.PNG)

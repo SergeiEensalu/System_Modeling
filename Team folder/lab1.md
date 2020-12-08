@@ -1,4 +1,4 @@
-### Exercise 1.6.1.1
+# Exercise 1.6.1.1
 1.	Abstract: idea, comfort, dream, feeling, pain, happiness, noise, cold, mindset, social norm
 Concrete: execution, cup of coffee, a tear, stomach ache, a smile, tire screech, an ice cube, a politician, a rule of conduct
 2. Table:
@@ -24,7 +24,7 @@ Concrete: execution, cup of coffee, a tear, stomach ache, a smile, tire screech,
 
     In the field of systems modeling, the abstract versus concrete differentiation is important because in some cases, the situation calls for an abstract representation of a system while in others, we would need a concrete description of a system state, e.g. to illustrate some aspects to the client. 
 
-### Exercise 1.6.2.1
+# Exercise 1.6.2.1
 Four additional rules for Mau Mau:
 1.	Before the start of the game, a player who is not the dealer cuts the deck 4 times. If they cut 1-3 significant cards, they are allowed to keep them if they want. However, if four cards where the cards are cut are found to be power cards, the deck needs to be reshuffled and the cut is repeated.
 2.	When a player has only one card left, he must say “Mau” (even if it is an Ace); if that card is a Jack, he must say “Mau-Mau”. Failure means that the player must take a card.
