@@ -1,4 +1,4 @@
-### Software architecture vs code
+# Software architecture vs code
 Think and answer the following questions (and keep a digital document of this for your portfolio):
 - Which types of diagrams are mentioned in the talk?
 The commonly seen types that software companies tend to produce: boxes, the airline route map, the “generally true” diagrams which state the obvious, etc. Also, UML diagrams
@@ -14,8 +14,8 @@ I think it might not always be possible to isolate the layers as the layered arc
 I see more benefit in modeling the architecture than I did before – the lecture made me think about how we structure our code and think about it.
 - Anything else remarkable from the movie, we should share/discuss?
 
-### September 8 class + lab
-#### Introduction
+# September 8 class + lab
+## Introduction
 From Systems Modeling, I expect to learn how to reasonably structure a software development cycle, to learn about design patterns, how to create documentation that is useful (diagrams). I have created some diagrams and use cases previously, not much experience with modeling though
 
 My name is Karmen and I’m not actually in SE Master’s but in Computer Science instead. 
@@ -32,7 +32,7 @@ https://searchapparchitecture.techtarget.com/tip/Pros-and-cons-of-monolithic-vs-
 
 Group members: Ott Saar, Chioma Nkem-Eze, Martin Põhjakivi, Mike, Rabindra Dahal
 
-#### Concrete vs abstract
+## Concrete vs abstract
 | Concrete | Abstract |
 | -------- | -------- |
 | Physical | Theoretical |
@@ -41,7 +41,7 @@ Group members: Ott Saar, Chioma Nkem-Eze, Martin Põhjakivi, Mike, Rabindra Daha
 | Action | Intent |
 | News article | Information |
 
-### Preparation for September 15 class
+# Preparation for September 15 class
 **Object Diagrams**
 
 Pro arguments:
@@ -98,7 +98,7 @@ What did I like/dislike:
 How would the usage affect my own past, current, and potential future projects:
 -	Can be used for low level descriptions, higher levels need more abstraction
 
-### Preparation for September 22 class
+# Preparation for September 22 class
 **Class Diagrams**
 
 Pro arguments:
@@ -150,7 +150,7 @@ What did I like/dislike:
 -	Liked that relationships are thoroughly explained
 -	Liked the understandable and funny examples
 
-### September 22 class + lab
+# September 22 class + lab
 Diagram #1:
 
 The associations have arrowheads, something I haven't seen before in object diagrams. Overlaps with the instructor's opinion.
@@ -171,7 +171,7 @@ It's interesting that there are just transactions as well as a specific transact
 
 Note to self: [link](https://www.youtube.com/watch?v=OO9Hgf35S6k&feature=youtu.be) to coding part of the lecture (generating classes from code, fulib)
 
-### Preparation for September 29 class
+# Preparation for September 29 class
 **Component Diagrams**
 
 Pro arguments:
@@ -231,7 +231,7 @@ What did I like/dislike:
 -	Liked the structured overview of all contents of component diagrams
 -   Liked the recap on drawing details
 
-### September 29 class + lab
+# September 29 class + lab
 
 Domain modeling advantage: allows to show how the system would function in real life without
 implementation details getting in the way
@@ -243,7 +243,7 @@ model just the structure of the system, or the functionality as well. Also,
 when including methods, we could limit ourselves to just the unique ones (e.g. 
 excluding getters and setters) - but how to filter out the uniques?
 
-#### Note-taking log from breakout rooms:
+## Note-taking log from breakout rooms:
 
 Notes for Group Nr 3
 
@@ -299,14 +299,14 @@ Point 1: Complicated to make good decisions on level of detail
 
 Point 2: The notation requires some effort to learn, otherwise the diagrams can lead to misunderstanding and confusion
 
-#### Fulib code and diagram generation
+## Fulib code and diagram generation
 What was the most unexpected feature you saw me implementing and why?
 In this presentation there actually wasn't anything very unexpected for me
 
 What was the hardest part to follow and why?
 It was okay to follow, better than the last in-class code demonstration
 
-### Preparation for October 6 class
+# Preparation for October 6 class
 **Use Case Diagrams & Personas**
 
 Pro arguments:
@@ -372,7 +372,7 @@ What are main points I learned from movie:
 What did I like/dislike:
 -	Liked the clear argumentation
 
-#### Interactive exercise from group 5 video:
+## Interactive exercise from group 5 video:
 
 List of possible use cases:
 1) Look for search suggestions while typing
@@ -381,7 +381,7 @@ List of possible use cases:
 4) Look for information about Google
 5) Use voice search
 
-### October 6 class + lab
+# October 6 class + lab
 For whom are we building software architecture, or creating system models?
 1)  software architects - they are the people who make the architecture decisions
 that the system will be based on, thus they need to have a clear overview from
@@ -397,7 +397,7 @@ After the general discussion, I would put more emphasis on software developers a
 little less on software architects, although I still think both can benefit from systems
 modelling.
 
-### Preparation for October 13 class
+# Preparation for October 13 class
 **Sequence diagrams**
 
 Pro arguments:
@@ -458,7 +458,7 @@ What are main points I learned from movie:
 What did I like/dislike:
 -   Liked clear explanation of notations
 
-### Preparation for October 20 class
+#Preparation for October 20 class
 **State diagrams**
 
 Pro arguments:
@@ -532,7 +532,7 @@ What did I like/dislike:
 -   Liked the one-by-one explanation of notation elements
 -   Liked the tone of the speakers (not monotonous)
 
-### October 20 class + lab
+# October 20 class + lab
 Are state charts better than plain (and documented) code?
 
 I would say the two complement each other. State charts can be used to communicate the
@@ -543,7 +543,7 @@ Why would ulno fire people who use recursion?
 It can be dangerous to use recursion because the state space is unbounded
 and if we have limited resources (memory), the system can crash.
 
-### Preparation for October 27 class
+# Preparation for October 27 class
 **Activity diagrams**
 
 Our group prepared the con video for activity diagrams. We had several sessions of working
@@ -622,7 +622,7 @@ State Charts or State Machines (I think he mentions them only once, but pay atte
 He mentions state machines when talking about investigating aggregates, where the focus
 is on behavior and not data
 
-### Preparation for November 3 class
+# Preparation for November 3 class
 **Deployment diagrams**
 
 Our group prepared the pro video for deployment diagrams. This time we had one session
@@ -668,7 +668,7 @@ How would the usage affect my own past, current, and potential future projects:
 UML hierarchy with direct benefits in most cases (unless the system is very simple,
 which is rarely the case)
 
-### November 3 class
+# November 3 class
 
 Leaders and task examples:
 1. Product owner - ensure coherent understanding of required functionality among team members
@@ -677,7 +677,7 @@ for using this tool; keep track of time limits during meetings
 3. Architecture owner - review code produced by developers in terms of adhering to agreed
 design patterns and architectural decisions
 
-### Preparation for November 10 class
+# Preparation for November 10 class
 
 Reading the SDM paper:
 
@@ -688,7 +688,7 @@ Providing example data for story steps - I agree with the paper in that this is
 an intuitive way for the stakeholders / domain experts to describe the data that is being
 handled in a high-level manner. It also helps developers when creating a data model later.
 
-### November 10 class
+# November 10 class
 
 Why do we want/need design patterns?
 
@@ -696,7 +696,7 @@ Using design patterns creates some common features (best practices) that are exp
 from well-written code. This increases code reusability, maintainability, and creates
 standards.
 
-### November 17 class
+# November 17 class
 
 Guest lecture by Marlon Dumas:
 
@@ -739,7 +739,7 @@ operations to
 identify problems at first on my own. This is probably due to my not too large
 Java coding experience.
 
-### November 24 class
+# November 24 class
 
 **Observer design pattern**
 
@@ -775,7 +775,7 @@ user requirements modeled?
 up with a simple banking application much faster when using Ncameo's no-code environment
 4. Other:
 
-### December 1 class
+# December 1 class
 
 **Singleton design pattern**
 1. Problems/annoyances: a singleton is essentially a global variable, independent of the state
