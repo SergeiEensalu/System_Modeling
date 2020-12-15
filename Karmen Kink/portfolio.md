@@ -874,3 +874,39 @@ techniques that actually have the same purpose. He says that the times he did us
 university taught him to think on a more abstract level and structure the systems.
  
 5. Optional: any other question/remark
+
+# December 15 class
+**Final project presentations**
+1. team1_11_7: liked the impressive operator work and visuals. did not like (that much) the 
+   color scheme of the application (some numbers and texts were hard to read), and felt like the 
+   long transaction ID-s and account numbers cluttered the visuals and made the process of 
+   actually making the transaction rather cumbersome
+   
+2. team2_6_8: my own team
+
+3. team3_12: liked that they used python and liked the thorough explanations. did not like the 
+   layout of the video - it 
+   would have 
+   been better to watch if 
+   the 
+   mobile window was cut out of the browser window (as it was, the text was too small and the 
+   space was wasted on the black background). since the presentation was shown straight from 
+   pycharm, the user stories could have at least been illustrated a bit
+   
+4. team4_9: it was interesting to see the similarities between our own and their solution 
+   (technologies used and components in the system). liked the user interface (the best so far 
+   in my opinion) and their unique feature which is logical and useful. also liked how they 
+   brought out the challenges and that they actually created subteams
+   
+5. team5_10: liked that they showed their people in the video. in a web-based course like this 
+   where most of us don't even know how our team members look like (as was mentioned in one of 
+   the videos), it's always nice to see real people. also liked the interface - readable, nice 
+   (even some emphasis put on design, it seems). the unique feature was interesting but porbably 
+   too time-consuming to actually be put to use. catching visuals in the presentation. the 
+   presenter was very skilled with using his voice - the presentation could have been much drier
+   if it wasn't for the good narrator
+   
+6. team13_14: liked the user interface and that transactions include descriptions (I feel like 
+   most of the teams actually forgot about or knowingly ignored this feature). also liked that 
+   they used transaction codes very similar to ours. the unique feature was also distinguishing, 
+   as no other team implemented currency conversion.  
