@@ -1,4 +1,5 @@
-# Software architecture vs code
+# Preparations
+## Software architecture vs code
 Think and answer the following questions (and keep a digital document of this for your portfolio):
 - Which types of diagrams are mentioned in the talk?
 The commonly seen types that software companies tend to produce: boxes, the airline route map, the “generally true” diagrams which state the obvious, etc. Also, UML diagrams
@@ -14,7 +15,7 @@ I think it might not always be possible to isolate the layers as the layered arc
 I see more benefit in modeling the architecture than I did before – the lecture made me think about how we structure our code and think about it.
 - Anything else remarkable from the movie, we should share/discuss?
 
-# September 8 class + lab
+# Week 1
 ## Introduction
 From Systems Modeling, I expect to learn how to reasonably structure a software development cycle, to learn about design patterns, how to create documentation that is useful (diagrams). I have created some diagrams and use cases previously, not much experience with modeling though
 
@@ -41,7 +42,9 @@ Group members: Ott Saar, Chioma Nkem-Eze, Martin Põhjakivi, Mike, Rabindra Daha
 | Action | Intent |
 | News article | Information |
 
-# Preparation for September 15 class
+[Back to README](README.md)
+
+# Week 2
 **Object Diagrams**
 
 Pro arguments:
@@ -98,7 +101,10 @@ What did I like/dislike:
 How would the usage affect my own past, current, and potential future projects:
 -	Can be used for low level descriptions, higher levels need more abstraction
 
-# Preparation for September 22 class
+[Back to README](README.md)
+
+# Week 3
+## Preparations for class
 **Class Diagrams**
 
 Pro arguments:
@@ -150,7 +156,7 @@ What did I like/dislike:
 -	Liked that relationships are thoroughly explained
 -	Liked the understandable and funny examples
 
-# September 22 class + lab
+## September 22 class + lab
 Diagram #1:
 
 The associations have arrowheads, something I haven't seen before in object diagrams. Overlaps with the instructor's opinion.
@@ -171,7 +177,10 @@ It's interesting that there are just transactions as well as a specific transact
 
 Note to self: [link](https://www.youtube.com/watch?v=OO9Hgf35S6k&feature=youtu.be) to coding part of the lecture (generating classes from code, fulib)
 
-# Preparation for September 29 class
+[Back to README](README.md)
+
+# Week 4
+## Preparations for class
 **Component Diagrams**
 
 Pro arguments:
@@ -231,10 +240,11 @@ What did I like/dislike:
 -	Liked the structured overview of all contents of component diagrams
 -   Liked the recap on drawing details
 
-# September 29 class + lab
+## September 29 class + lab
 
 Domain modeling advantage: allows to show how the system would function in real life without
 implementation details getting in the way
+
 Disadvantage: introduces the model-code gap (as opposed to class diagrams)
 
 Methods in class diagrams:
@@ -306,7 +316,10 @@ In this presentation there actually wasn't anything very unexpected for me
 What was the hardest part to follow and why?
 It was okay to follow, better than the last in-class code demonstration
 
-# Preparation for October 6 class
+[Back to README](README.md)
+
+# Week 5
+## Preparations for class
 **Use Case Diagrams & Personas**
 
 Pro arguments:
@@ -381,7 +394,7 @@ List of possible use cases:
 4) Look for information about Google
 5) Use voice search
 
-# October 6 class + lab
+## October 6 class + lab
 For whom are we building software architecture, or creating system models?
 1)  software architects - they are the people who make the architecture decisions
 that the system will be based on, thus they need to have a clear overview from
@@ -397,7 +410,10 @@ After the general discussion, I would put more emphasis on software developers a
 little less on software architects, although I still think both can benefit from systems
 modelling.
 
-# Preparation for October 13 class
+[Back to README](README.md)
+
+# Week 6
+## Preparations for class
 **Sequence diagrams**
 
 Pro arguments:
@@ -458,8 +474,10 @@ What are main points I learned from movie:
 What did I like/dislike:
 -   Liked clear explanation of notations
 
-# Preparation for October 20 class
+[Back to README](README.md)
 
+# Week 7
+## Preparations for class
 **State diagrams**
 
 Pro arguments:
@@ -533,7 +551,7 @@ What did I like/dislike:
 -   Liked the one-by-one explanation of notation elements
 -   Liked the tone of the speakers (not monotonous)
 
-# October 20 class + lab
+## October 20 class + lab
 Are state charts better than plain (and documented) code?
 
 I would say the two complement each other. State charts can be used to communicate the
@@ -544,7 +562,10 @@ Why would ulno fire people who use recursion?
 It can be dangerous to use recursion because the state space is unbounded
 and if we have limited resources (memory), the system can crash.
 
-# Preparation for October 27 class
+[Back to README](README.md)
+
+# Week 8
+## Preparations for class
 **Activity diagrams**
 
 Our group prepared the con video for activity diagrams. We had several sessions of working
@@ -623,7 +644,10 @@ State Charts or State Machines (I think he mentions them only once, but pay atte
 He mentions state machines when talking about investigating aggregates, where the focus
 is on behavior and not data
 
-# Preparation for November 3 class
+[Back to README](README.md)
+
+# Week 9
+## Preparations for class
 **Deployment diagrams**
 
 Our group prepared the pro video for deployment diagrams. This time we had one session
@@ -669,7 +693,7 @@ How would the usage affect my own past, current, and potential future projects:
 UML hierarchy with direct benefits in most cases (unless the system is very simple,
 which is rarely the case)
 
-# November 3 class
+## November 3 class
 
 Leaders and task examples:
 1. Product owner - ensure coherent understanding of required functionality among team members
@@ -678,8 +702,10 @@ for using this tool; keep track of time limits during meetings
 3. Architecture owner - review code produced by developers in terms of adhering to agreed
 design patterns and architectural decisions
 
-# Preparation for November 10 class
+[Back to README](README.md)
 
+# Week 10
+## Preparations for class
 Reading the SDM paper:
 
 One point that I'd like to see respected
@@ -689,7 +715,7 @@ Providing example data for story steps - I agree with the paper in that this is
 an intuitive way for the stakeholders / domain experts to describe the data that is being
 handled in a high-level manner. It also helps developers when creating a data model later.
 
-# November 10 class
+## November 10 class
 
 Why do we want/need design patterns?
 
@@ -697,7 +723,9 @@ Using design patterns creates some common features (best practices) that are exp
 from well-written code. This increases code reusability, maintainability, and creates
 standards.
 
-# November 17 class
+[Back to README](README.md)
+
+# Week 11
 
 Guest lecture by Marlon Dumas:
 
@@ -740,7 +768,9 @@ operations to
 identify problems at first on my own. This is probably due to my not too large
 Java coding experience.
 
-# November 24 class
+[Back to README](README.md)
+
+# Week 12
 
 **Observer design pattern**
 
@@ -792,7 +822,9 @@ Probably we could come up with a simple banking application much faster when usi
 
 4. Other:
 
-# December 1 class
+[Back to README](README.md)
+
+# Week 13
 
 **Singleton design pattern**
 1. Problems/annoyances: a singleton is essentially a global variable, independent of the state
@@ -836,7 +868,9 @@ Yes
 
 8. Other particularities you spotted and want to share.
 
-# December 8 class
+[Back to README](README.md)
+
+# Week 14
 **Summary of design patterns by Ishaya**
 
 Top 2 design patterns:
@@ -875,7 +909,9 @@ university taught him to think on a more abstract level and structure the system
  
 5. Optional: any other question/remark
 
-# December 15 class
+[Back to README](README.md)
+
+# Week 15
 **Final project presentations**
 1. team1_11_7: liked the impressive operator work and visuals. did not like (that much) the 
    color scheme of the application (some numbers and texts were hard to read), and felt like the 
