@@ -30,4 +30,4 @@ I liked the chaotic collaborative board thingy part of the lecture. The breakout
 ### Feedback for the lab
 In the lab we continued working on our video and agreed to do the exercise later. We had a nice chat with Ulno about the video and got nice suggestions.
 
-[Previous](./Reflections/lecture7.md) [Next](./Reflections/lecture9.md)
+[Previous](../lecture7.md) [Next](../lecture9.md)

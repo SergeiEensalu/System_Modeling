@@ -41,4 +41,4 @@ Nice lecture, the model checker stuff is complicated. Breakout room went well.
 ### Reflections for the lab
 Thankfully we didn't have exercises for our lab so we could focus on working on our video. We had a nice chat with Ulno about editing techniques and programs and how to make the con movie.
 
-[Previous](./Reflections/lecture6.md) [Next](./Reflections/lecture8.md)
+[Previous](../lecture6.md) [Next](../lecture8.md)
