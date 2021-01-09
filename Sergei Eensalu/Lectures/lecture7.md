@@ -52,3 +52,6 @@ Point 1: Not following notation correctly can lead to deadlocks
 
 Point 2: Hard to maintain.
 
+
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)
+

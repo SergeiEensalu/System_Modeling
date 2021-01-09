@@ -58,5 +58,6 @@ Point 1: Flexibility can lead to misinterpretation due to lack of technical deta
 Point 2: The problem with research on each change makes updating terrible.
 
 
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)
 
 

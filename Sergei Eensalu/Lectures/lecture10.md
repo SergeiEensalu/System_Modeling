@@ -14,3 +14,6 @@ Flow charts are simpler versions of activity diagrams
 
 ### Breakout
 No breakout  this week
+
+
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)

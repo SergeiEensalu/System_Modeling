@@ -6,3 +6,6 @@ I really liked the ideas and work with the project. Generally a very cool way of
 
 
 I shed a tear at the moment where Ulno and Asuya thanked everyone. It was really very interesting and funny and probably one of the most useful courses. I would like all courses to be in this format
+
+
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)

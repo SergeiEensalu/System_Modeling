@@ -64,3 +64,4 @@ Point 2: sequence diagrams help discover architectural, interface and logic prob
 Point 1: Too much space in big systems
 Point 2: SD are difficult to understand and prior syntactical knowledge is needed to fully understand them . So written text or code blocks are more appropriate to explain use case scenarios than sequence diagrams
 
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)

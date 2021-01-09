@@ -11,3 +11,6 @@
 - All button clicks in the application could create a command.
 
 ## Guest lecture - NCAMEO
+
+
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)

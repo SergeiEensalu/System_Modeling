@@ -52,3 +52,6 @@ https://www.youtube.com/watch?v=9bVl-WavnKA
 - Easily outdated
 - Complexity 
 - Concurrency
+
+
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)

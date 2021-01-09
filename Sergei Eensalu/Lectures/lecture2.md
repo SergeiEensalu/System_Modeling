@@ -78,5 +78,6 @@ Point 1 against Inefficient because it's can become really messy very fast
 Point 1 against It only focuses on a particular instance of a class.
 
 
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)
 
 

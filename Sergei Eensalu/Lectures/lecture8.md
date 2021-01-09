@@ -49,3 +49,6 @@ Point 2: Third Person Pro Activity diagrams are easy to read and learn
 ###  2 Best Against
 Point 1: Second Person Con Confusion between activity diagrams and state charts. If you don't know what is what there might be confusion. 
 Point 2: Fourth Person Con Complex conditional logic can make the diagrams hard to read
+
+
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)

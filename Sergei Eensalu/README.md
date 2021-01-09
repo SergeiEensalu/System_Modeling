@@ -60,7 +60,11 @@
   ## Week 13
  - [Lecture and lab reflection](/Sergei%20Eensalu/Reflections/reflection13.md)
  - [Lecture work](/Sergei%20Eensalu/Lectures/lecture13.md)
- 
+    
+  ## Week 14
+   - [Lecture and lab reflection](/Sergei%20Eensalu/Reflections/reflection14.md)
+   - [Lecture work](/Sergei%20Eensalu/Lectures/lecture14.md)
+   
    ## Week 15
   - [Lecture and lab reflection](/Sergei%20Eensalu/Reflections/reflection15.md)
   - [Lecture work](/Sergei%20Eensalu/Lectures/lecture15.md)

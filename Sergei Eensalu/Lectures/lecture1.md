@@ -53,3 +53,6 @@ Difference between architecture model and source code, where architecture model 
 The diagrams are basically pointless, we are just deceiving ourselves we have with creating like an alternate reality about how we think the system should look, but it doesn’t .
 
 
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)
+
+

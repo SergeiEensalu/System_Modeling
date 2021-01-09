@@ -82,6 +82,7 @@ Note taker worked very efficiently.
  - Point 1: Sixth Person Con Notes’s argument
  - Point 2: Fourth Person Con Notes’s argument
 
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)
 
 
 

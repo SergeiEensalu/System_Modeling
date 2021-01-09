@@ -98,3 +98,6 @@ Most of the UML diagrams are used to handle logical components but deployment di
 
 ### Slide 19
 As the mentioned pros suggest, deployment diagrams have a wide range of applications. They can be used to assess the implications of distribution and resource allocations, provide a topology of hardware, plan the architecture of a system, including hardware costs and security aspects, and describe which hardware components deploy which software components.
+
+
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)

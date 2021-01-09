@@ -8,3 +8,6 @@ This lecture was, as always, very interesting. The lecture format has become cus
 The team has done a tremendous amount of work this week. I would even say that we did essentially the whole project in one week, since everyone worked very hard and did all their tasks.
 
 As for me -> several tasks were assigned to me, I started to do and did. Spent about two days. When I started looking at the backlog, I realized that my task was three times less than I did. I accidentally grabbed other assignments and did them. It happened by accident, because I can't read my assignment normally.
+
+
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)

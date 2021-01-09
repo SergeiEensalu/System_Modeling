@@ -6,3 +6,6 @@ This lecture was, as always, very interesting. The lecture format has become cus
 
 ## Lab Reflection
 we did a very good job last week with the team and so almost everything was done. There are some small details left for this week. For example, I slightly altered the sequence diagrams to make sure 100% was correct. I had no more assignments this week. But at the end of the week they still found me what I could do, but I have not had time yet
+
+
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)

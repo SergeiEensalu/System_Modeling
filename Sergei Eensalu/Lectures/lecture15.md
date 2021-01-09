@@ -32,9 +32,12 @@ Very simple design, very clear to the user. It didn't even take me an extra seco
 In general, a very cool project was made and in fact it would be cool to have such an application in real life
 - ##### What do you dislike? 
 I have not seen a special feature of this project.
+I have not seen a special feature of this project.
 
 ### Team13_14
 -  ##### What you like?
 Again, very simple design, very easy to use. Nice music in the background
 - ##### What do you dislike? 
 Speed of video and speech
+
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)

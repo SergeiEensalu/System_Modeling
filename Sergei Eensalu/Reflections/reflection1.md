@@ -19,3 +19,4 @@ After the lecture, there was a bit of a confused state that turned into a practi
 The first practical lesson we got to know the team, tried to understand what we need to do and began to calmly do the task. Everything went well, because the guys from the team were able to explain the task
 
 
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)

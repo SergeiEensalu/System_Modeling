@@ -41,4 +41,5 @@ Point 2: Diagrams provide a view of hardware and software together. You can unde
 Point 1: Dep diagrams don't have visual standards. No notation standardization. Labor-intensive.
 Point 2: Dep diagrams don't support cloud applications. Since they are becoming more and widely used these days.
 
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)
 

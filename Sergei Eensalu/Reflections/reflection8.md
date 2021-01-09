@@ -110,3 +110,6 @@ In conclusion we can say that activity diagrams are not always object oriented. 
 ![image](activity%20diagram/10.jpg)
 
 ![image](activity%20diagram/11.jpg)
+
+
+[Sergei Eensalu README](/Sergei%20Eensalu/README.md)
