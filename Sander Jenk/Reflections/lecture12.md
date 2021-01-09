@@ -24,4 +24,4 @@
 I really liked this guest lecture as well. I liked how he was very honest and upfront about the finances and how he is able to hire developers straight out of college. The Ulno part of the lecture was nice also and Ulno had very good questions for the guest. Nice that Ulno has been able to get us these very different but very insightful lecturers.
 
 
-[Previous](../lecture11.md) [Next](../lecture13.md)
+[Previous](../Reflections/lecture11.md) [Next](../Reflections/lecture13.md)

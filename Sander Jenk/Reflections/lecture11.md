@@ -14,4 +14,4 @@ I think BPM is quite similar to flow-charts and activity diagrams
 ### Feedback for the lecture
 Amazing guest lecture and nice Q&A after that. Also nice that we will have a nice little overview of design patters. Even though there is no way I remember them exactly, maybe when I encounter a problem mentioned in this course, a light bulb turns on and I remember that I should check if a design pattern exists to solve the problem.
 
-[Previous](../lecture10.md) [Next](../lecture12.md)
+[Previous](../Reflections/lecture10.md) [Next](../Reflections/lecture12.md)

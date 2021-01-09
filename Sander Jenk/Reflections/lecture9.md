@@ -31,4 +31,4 @@ The project seems again like an overkill for systems modeling course. A lot more
 ### Feedback for the lab
 In the lab we joined forces with group 2+6 and did some event storming. As expected, it was quite chaotic but we ended up with a nice looking board.
 
-[Previous](../lecture8.md) [Next](../lecture10.md)
+[Previous](../Reflections/lecture8.md) [Next](../Reflections/lecture10.md)

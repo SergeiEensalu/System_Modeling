@@ -17,4 +17,4 @@ Doesn't use UML models, which is quite understandable. I don't share the opinion
 ### Feedback for the lecture
 I really liked this lecture. Ishaya did a good job concluding the design pattern section. The guest lecture was really good with a lot of real life examples. He explained well how you have to communicate with different roles in a software project as a software architect and how to get the most information out of people. 
 
-[Previous](../lecture13.md) [Next](../lecture15.md)
+[Previous](../Reflections/lecture13.md) [Next](../Reflections/lecture15.md)

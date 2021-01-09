@@ -25,4 +25,4 @@
 It was naice to see that everyone completed the project successfully and it was a nice culmination of the course
 
 
-[Previous](../lecture14.md)
+[Previous](../Reflections/lecture14.md)
