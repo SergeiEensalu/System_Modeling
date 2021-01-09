@@ -74,3 +74,6 @@ Again, no criticism for todays lecture, it was interesting. Also our breakout we
 
 ### Feedback for the lab
 There was too many exercises and the last one was massive, I think we spent close to 10 hours on these exercises. We had 2 sessions other than the lab for the last one. Also I did the mancala personas task
+
+
+[Previous](./Reflections/lecture4.md) [Next](./Reflections/lecture6.md)

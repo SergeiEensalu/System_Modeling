@@ -17,3 +17,6 @@ No breakout again
 
 ### Feedback for the lecture
 I liked the lecture. When talking about the design patterns, it would be beneficial to mention what problems they solve before going in to details about how to implement them.
+
+
+[Previous](./Reflections/lecture9.md) [Next](./Reflections/lecture11.md)

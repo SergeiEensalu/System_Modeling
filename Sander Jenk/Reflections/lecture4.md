@@ -43,3 +43,5 @@ I provided the con: Don't contain enough information to use for development, als
 
 ### Feedback for the lecture
 Again, nice lecture, nothing more to say about that.
+
+[Previous](./Reflections/lecture3.md) [Next](./Reflections/lecture5.md)

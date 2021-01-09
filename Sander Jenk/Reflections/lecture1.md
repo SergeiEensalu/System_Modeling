@@ -45,3 +45,5 @@ Stories can be too vague for development
 
 ## Feedback for the lecture:
 Interacting with other people in the lecture was a bit unexpected (audio problems, unclear tasks, too little time). There were several examples and small tasks like the Study Right solution and Abstract vs Concrete. This part of the lecture was quite confusing because I didn't understand the reason we did them. When explaining the stories the slides were filled to the brim, which is hard to follow.
+
+[Next](./Reflections/lecture2.md)

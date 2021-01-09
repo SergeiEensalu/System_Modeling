@@ -46,3 +46,6 @@ The lecture was good, breakouts went pretty smoothly. There was a bit confusion 
 
 ### Feedback for the lab
 We managed to do half the exercises during the lab. One problem we had was that none of us uses java that much so the diagram generation exercises are pretty difficult for us. We didn't have IDE-s for java so we couldn't start with these. I actually really enjoy making the diagrams and plantUML makes it quite nice. I didn't really see the point of the last exercise since it was just a coding exercise, rather than a modeling one. It was annoying to use IDE and language that I don't use. Also the part with the assert statement was not clear for me.
+
+
+[Previous](./Reflections/lecture2.md) [Next](./Reflections/lecture4.md)

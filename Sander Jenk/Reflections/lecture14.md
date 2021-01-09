@@ -16,3 +16,5 @@ I see all frameworks and ways of doing things as tools and choosing the tool dep
 Doesn't use UML models, which is quite understandable. I don't share the opinion to that extent but I also don't have much experience with modeling in a real life scenario and in a context of a larger team.
 ### Feedback for the lecture
 I really liked this lecture. Ishaya did a good job concluding the design pattern section. The guest lecture was really good with a lot of real life examples. He explained well how you have to communicate with different roles in a software project as a software architect and how to get the most information out of people. 
+
+[Previous](./Reflections/lecture13.md) [Next](./Reflections/lecture15.md)

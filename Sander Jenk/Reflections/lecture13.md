@@ -18,3 +18,5 @@ After
 1. I think I wouldn't have liked to do more work with fulib.
 ### Feedback for the lecture
 I really didn't care much about this lecture not because of the lecturers, but because I don't see myself using that tool very much in the future. 
+
+[Previous](./Reflections/lecture12.md) [Next](./Reflections/lecture14.md)

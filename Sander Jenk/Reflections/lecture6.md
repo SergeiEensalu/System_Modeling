@@ -47,3 +47,5 @@ Nothing bad to say again, interesting lecture, I liked the poll part again to as
 
 ### Lab reflections
 I did the mancala GUI task and used Angular to solve it. This lab was nice and manageable, 3 really concise and understandable tasks.
+
+[Previous](./Reflections/lecture5.md) [Next](./Reflections/lecture7.md)
