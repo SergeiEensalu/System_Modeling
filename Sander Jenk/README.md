@@ -1,5 +1,8 @@
 # This is the portfolio of Sander Jenk
 
+## Project log
+* [Link](https://bitbucket.org/rootskarel/bank/src/master/personal%20logs/Sander's%20log.md)
+
 ## Week 1
 * [Lecture 1](./Reflections/lecture1.md)
 * [Lab 1](../Team%20folder/lab1.md)
